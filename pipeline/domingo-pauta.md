@@ -5,7 +5,7 @@ Um tema por semana, sem repetir. Ao publicar, mova o tema de "Ideias" para "Publ
 
 ## Publicados
 
-- 2026-10-04 — 5 golpes com IA para avisar seus pais (voz clonada, vídeo falso, falsa central, número novo, loja falsa)
+- 2026-09-27 — 5 golpes com IA para avisar seus pais (voz clonada, vídeo falso, falsa central, número novo, loja falsa)
 
 ## Ideias (em ordem de prioridade)
 

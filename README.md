@@ -17,6 +17,18 @@ O repositório é público porque o Metricool só aceita imagens com link públi
 - Formato 1080×1350; rodapé com logo e `n/N`. Capa escura, alternando claro/escuro, fechamento laranja.
 - Uma ideia por lâmina; toda manchete com fonte (podcast e data).
 
+## Série Domingo Seguro (visual próprio)
+
+Segurança digital para a família, todo domingo. O visual é propositalmente diferente do editorial de semana:
+
+- Modelo: `pipeline/modelo-domingo/` (capa amarela, lâminas creme, fechamento azul-marinho).
+- Pauta e temas já usados: `pipeline/domingo-pauta.md`.
+- Fontes: Bricolage Grotesque 800 (títulos), Atkinson Hyperlegible (texto, fácil de ler para público mais velho).
+- Cores: creme `#FFF7E6`, azul-marinho `#13265C`, amarelo `#FFC43D`, vermelho `#B8321C` (alerta), verde `#1D6B45` (proteção), cinza-azulado `#3D4A6B`.
+- Cartões com borda de 4px azul-marinho e sombra sólida `10px 10px 0`; selo "DOMINGO SEGURO" em todas as lâminas.
+- Logos: `logo-azul` no creme e no amarelo, `logo-claro` no azul-marinho.
+- Texto do corpo com no mínimo 36px; linguagem simples, sem jargão técnico.
+
 ## Gerar as imagens
 
 ```bash

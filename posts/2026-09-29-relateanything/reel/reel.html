@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Reel RelateAnything</title>
+<!-- Reel 1080x1920, 24 s. Animação determinística: window.render(t) desenha o quadro do instante t (segundos).
+     Atributos: data-scene="ini,fim" (cena), data-in="t" data-fx="up|fade|pop|left" (entrada),
+     data-count="valor" data-dec="casas" (contador), data-bar="largura%" (barra), data-kb (zoom lento). -->
+<style>
+:root{--ink:#16181D;--cream:#F4F1EA;--orange:#E8894F;--rust:#B4501A;--blue:#6FA3E8;--card:#2A2E37;--line:#3A3E47;--muted:#DAD6CC}
+*{box-sizing:border-box}
+body{margin:0;width:1080px;height:1920px;overflow:hidden;background:var(--ink);color:var(--cream);font-family:'IBM Plex Sans',sans-serif}
+.scene{position:absolute;inset:0;padding:230px 96px 420px;display:flex;flex-direction:column;gap:44px;justify-content:center;opacity:0}
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:34px;letter-spacing:.08em;color:var(--orange)}
+.h{margin:0;font-family:'Fraunces',serif;font-weight:700;letter-spacing:-.02em;line-height:1.03}
+.chip{display:inline-flex;align-items:center;padding:16px 28px;border-radius:18px;font-weight:600;font-size:44px;background:var(--card);color:var(--cream);white-space:nowrap}
+.rel{background:var(--orange);color:var(--ink);font-family:'IBM Plex Mono',monospace;font-weight:500}
+.row{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.sub{font-size:44px;line-height:1.35;color:var(--muted)}
+.card{background:var(--card);border-radius:32px;padding:40px 44px;display:flex;flex-direction:column;gap:22px}
+.label{font-family:'IBM Plex Mono',monospace;font-size:30px;color:#9A968D}
+.big{font-family:'Fraunces',serif;font-weight:700;font-size:112px;line-height:1;white-space:nowrap}
+.brand{position:absolute;z-index:5;left:96px;top:110px;display:flex;align-items:center;gap:22px;opacity:.95}
+.brand img{height:70px}
+.tag{position:absolute;z-index:5;right:96px;top:122px;font-family:'IBM Plex Mono',monospace;font-size:28px;color:#9A968D}
+</style>
+</head>
+<body>
+<div class="brand"><img src="../../../pipeline/logos/logo-claro.png" alt="Interas"></div>
+<div class="tag">visão computacional</div>
+
+<!-- 1 · Gancho (0–3,4 s) -->
+<section class="scene" data-scene="0,3.4">
+<div class="eyebrow" data-in="0.1" data-fx="fade">PESQUISA ABERTA · SET/2026</div>
+<h1 class="h" style="font-size:132px"><span data-in="0.2" data-fx="up" style="display:inline-block">A IA agora</span> <span data-in="0.45" data-fx="up" style="display:inline-block">entende</span> <span data-in="0.8" data-fx="up" style="display:inline-block;color:var(--orange)">o que está acontecendo</span> <span data-in="1.2" data-fx="up" style="display:inline-block">na cena.</span></h1>
+</section>
+
+<!-- 2 · Demo (3,4–7,6 s) -->
+<section class="scene" data-scene="3.4,7.6" style="gap:40px">
+<div class="eyebrow" data-in="3.5" data-fx="fade">NA PRÁTICA · RELATEANYTHING</div>
+<div style="height:760px;border-radius:36px;overflow:hidden;border:3px solid var(--line)" data-in="3.5" data-fx="fade">
+<img data-kb src="../img/demo-cena.png" alt="" style="width:100%;height:100%;object-fit:cover;object-position:48% 45%;display:block">
+</div>
+<div class="row" data-in="4.6" data-fx="pop"><span class="chip">pessoa</span><span class="chip rel">montando</span><span class="chip">cavalo</span></div>
+<div class="row" data-in="5.3" data-fx="pop"><span class="chip">pessoa</span><span class="chip rel">usando</span><span class="chip">botas</span></div>
+<div class="sub" data-in="6.0" data-fx="fade" style="font-size:36px">1 foto · 12 objetos · 14 relações</div>
+</section>
+
+<!-- 3 · Lista × relações (7,6–11 s) -->
+<section class="scene" data-scene="7.6,11">
+<div class="card" data-in="7.7" data-fx="up">
+<div class="label">DETECTOR COMUM</div>
+<div class="row"><span class="chip" style="background:var(--ink)">pessoa</span><span class="chip" style="background:var(--ink)">celular</span><span class="chip" style="background:var(--ink)">carro</span></div>
+<div class="sub" style="font-size:36px">só uma lista de coisas</div>
+</div>
+<div class="card" data-in="8.8" data-fx="up" style="border:3px solid var(--orange);background:transparent">
+<div class="label" style="color:var(--orange)">RELATEANYTHING</div>
+<div class="row" data-in="9.3" data-fx="left"><span class="chip">pessoa</span><span class="chip rel">segurando</span><span class="chip">celular</span></div>
+<div class="row" data-in="9.8" data-fx="left"><span class="chip">carro</span><span class="chip rel">sobre</span><span class="chip">faixa</span></div>
+</div>
+</section>
+
+<!-- 4 · Texto livre (11–14,4 s) -->
+<section class="scene" data-scene="11,14.4">
+<h2 class="h" style="font-size:112px" data-in="11.1" data-fx="up">Você escreve a relação.<br><span style="color:var(--orange)">Ele procura.</span></h2>
+<div class="card" data-in="11.8" data-fx="up" style="font-family:'IBM Plex Mono',monospace;font-size:40px;line-height:1.55;color:var(--muted)">
+<div><span style="color:var(--blue)">relações</span> = [</div>
+<div data-in="12.2" data-fx="left" style="color:var(--orange)">  "encostado em",</div>
+<div data-in="12.6" data-fx="left" style="color:var(--orange)">  "caído no chão",</div>
+<div data-in="13.0" data-fx="left" style="color:var(--orange)">  "sem capacete"</div>
+<div>]</div>
+</div>
+<div class="sub" data-in="13.3" data-fx="fade">sem retreinar nada</div>
+</section>
+
+<!-- 5 · Números (14,4–18,2 s) -->
+<section class="scene" data-scene="14.4,18.2" style="gap:36px">
+<div class="eyebrow" data-in="14.5" data-fx="fade">OS NÚMEROS</div>
+<div class="row" style="gap:28px;flex-wrap:nowrap">
+<div class="card" data-in="14.6" data-fx="up" style="flex:1"><div class="big"><span data-count="20" data-t0="14.7" data-t1="15.6">0</span> ms</div><div class="sub" style="font-size:32px">por quadro, numa GPU</div></div>
+<div class="card" data-in="14.9" data-fx="up" style="flex:1"><div class="big"><span data-count="7" data-t0="15.0" data-t1="15.9">0</span> FPS</div><div class="sub" style="font-size:32px">em CPU de notebook</div></div>
+</div>
+<div class="card" data-in="15.5" data-fx="up">
+<div class="label">NOTA NO BENCHMARK OV-SGG</div>
+<div style="display:flex;justify-content:space-between;font-size:38px"><span>RelateAnything</span><span style="font-family:'IBM Plex Mono',monospace"><span data-count="40.1" data-dec="1" data-t0="15.8" data-t1="16.9">0</span></span></div>
+<div style="height:40px;background:var(--ink);border-radius:6px"><div data-bar="89" data-t0="15.8" data-t1="16.9" style="height:40px;width:0;background:var(--orange);border-radius:6px"></div></div>
+<div style="display:flex;justify-content:space-between;font-size:38px;color:var(--muted)"><span>melhor concorrente</span><span style="font-family:'IBM Plex Mono',monospace"><span data-count="11.8" data-dec="1" data-t0="15.8" data-t1="16.5">0</span></span></div>
+<div style="height:40px;background:var(--ink);border-radius:6px"><div data-bar="26" data-t0="15.8" data-t1="16.5" style="height:40px;width:0;background:#8A8F9C;border-radius:6px"></div></div>
+</div>
+<div class="label" data-in="16.8" data-fx="fade" style="font-size:24px">Números do autor (arXiv 2609.12552).</div>
+</section>
+
+<!-- 6 · Negócio (18,2–21,6 s) -->
+<section class="scene" data-scene="18.2,21.6" style="gap:30px">
+<h2 class="h" style="font-size:100px" data-in="18.3" data-fx="up">Alertas escritos em português.</h2>
+<div class="row" data-in="18.8" data-fx="left"><span class="chip">pessoa</span><span class="chip rel">sem</span><span class="chip">capacete</span></div>
+<div class="row" data-in="19.3" data-fx="left"><span class="chip">portão</span><span class="chip rel">aberto sem</span><span class="chip">ninguém</span></div>
+<div class="row" data-in="19.8" data-fx="left"><span class="chip">pessoa</span><span class="chip rel">caída no</span><span class="chip">chão</span></div>
+<div class="sub" data-in="20.4" data-fx="fade">rodando no local: <b style="color:var(--cream)">a imagem não sai do prédio</b></div>
+</section>
+
+<!-- 7 · Fechamento (21,6–24 s) -->
+<section class="scene" data-scene="21.6,24.2" data-light style="background:var(--orange);color:var(--ink)">
+<h2 class="h" style="font-size:118px" data-in="21.7" data-fx="up">Que relação suas câmeras deveriam entender?</h2>
+<div style="font-size:48px;line-height:1.35;font-weight:500" data-in="22.3" data-fx="fade">Conta nos comentários. <b>A Interas testa no seu ambiente.</b></div>
+<div class="row" data-in="22.8" data-fx="fade" style="gap:24px;font-family:'IBM Plex Mono',monospace;font-size:30px"><span>arraste o carrossel no perfil →</span></div>
+</section>
+
+<script>
+const ease = p => 1 - Math.pow(1 - Math.min(Math.max(p, 0), 1), 3);
+const scenes = [...document.querySelectorAll('[data-scene]')];
+const items = [...document.querySelectorAll('[data-in]')];
+const counts = [...document.querySelectorAll('[data-count]')];
+const bars = [...document.querySelectorAll('[data-bar]')];
+const kbs = [...document.querySelectorAll('[data-kb]')];
+const brand = document.querySelector('.brand'), tag = document.querySelector('.tag');
+window.render = (t) => {
+  let active = null;
+  for (const s of scenes) {
+    const [a, b] = s.dataset.scene.split(',').map(Number);
+    const fadeIn = ease((t - a) / 0.25), fadeOut = 1 - ease((t - (b - 0.25)) / 0.25);
+    const on = t >= a && t < b;
+    s.style.opacity = on ? Math.min(fadeIn, fadeOut) : 0;
+    s.style.transform = on ? `scale(${1 + 0.02 * (1 - fadeIn)})` : 'none';
+    if (on) active = s;
+  }
+  for (const el of items) {
+    const p = ease((t - parseFloat(el.dataset.in)) / 0.45);
+    const fx = el.dataset.fx;
+    el.style.opacity = p;
+    el.style.transform = fx === 'up' ? `translateY(${(1 - p) * 60}px)` :
+                         fx === 'left' ? `translateX(${(1 - p) * -80}px)` :
+                         fx === 'pop' ? `scale(${0.8 + 0.2 * p})` : 'none';
+    if (fx === 'pop') el.style.transformOrigin = 'left center';
+  }
+  for (const el of counts) {
+    const p = ease((t - +el.dataset.t0) / (+el.dataset.t1 - +el.dataset.t0));
+    const v = +el.dataset.count * p, d = +(el.dataset.dec || 0);
+    el.textContent = v.toFixed(d).replace('.', ',');
+  }
+  for (const el of bars) {
+    const p = ease((t - +el.dataset.t0) / (+el.dataset.t1 - +el.dataset.t0));
+    el.style.width = (+el.dataset.bar * p) + '%';
+  }
+  for (const el of kbs) {
+    const p = Math.min(Math.max((t - 3.4) / 4.2, 0), 1);
+    el.style.transform = `scale(${1.02 + 0.12 * p})`;
+  }
+  const last = active && active.hasAttribute('data-light');
+  brand.style.filter = last ? 'invert(1)' : 'none';
+  tag.style.color = last ? '#16181D' : '#9A968D';
+};
+window.render(0);
+</script>
+</body>
+</html>

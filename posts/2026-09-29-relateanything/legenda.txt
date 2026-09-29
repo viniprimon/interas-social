@@ -1,0 +1,15 @@
+A IA não só enxerga objetos: agora ela entende o que está acontecendo na cena. 👁️
+
+O RelateAnything, pesquisa aberta publicada este mês, devolve frases como "pessoa montando cavalo" ou "pessoa usando botas", e não só uma lista de coisas. Você escreve as relações que importam, em texto, sem retreinar nada.
+
+No carrossel:
+▸ o modelo funcionando numa foto real
+▸ como ele funciona, em 4 passos
+▸ os números: 20 ms por quadro, 7 FPS em CPU comum
+▸ onde isso vira negócio: segurança do trabalho, varejo, condomínios, cuidado com idosos
+▸ como rodar no próprio local, sem a imagem sair do prédio
+▸ os cuidados antes de levar para produção
+
+Que relação você gostaria que as suas câmeras entendessem? Conta aqui 👇
+
+#VisaoComputacional #InteligenciaArtificial #IA #EdgeAI #LGPD #CodigoAberto #Interas

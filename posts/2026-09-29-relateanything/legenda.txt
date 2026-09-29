@@ -1,0 +1,11 @@
+A IA não só enxerga objetos: agora ela entende o que está acontecendo na cena. 👁️
+
+O RelateAnything, publicado este mês como pesquisa aberta, descreve como os objetos se relacionam numa imagem: "pessoa segurando celular", "carro parado sobre a faixa". Você escreve as relações que quer, em texto, sem retreinar nada.
+
+É pequeno e rápido: cerca de 20 ms por quadro numa GPU e 7 FPS numa CPU de notebook. Dá para rodar no próprio local, sem a imagem sair do estabelecimento.
+
+No fim do carrossel, os cuidados antes de levar para produção.
+
+Que relação você gostaria que as suas câmeras entendessem? Conta aqui 👇
+
+#VisaoComputacional #InteligenciaArtificial #IA #EdgeAI #CodigoAberto #Interas

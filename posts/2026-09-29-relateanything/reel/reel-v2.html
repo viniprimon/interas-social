@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Reel RelateAnything v2</title>
+<!-- Reel 1080x1920, ~58 s, com texto explicativo para quem não é da área.
+     window.render(t) desenha o quadro do instante t. Atributos:
+     data-scene="ini,fim" · data-in="t" data-fx="up|fade|pop|left" · data-count · data-bar · data-kb="ini,fim" -->
+<style>
+:root{--ink:#16181D;--cream:#F4F1EA;--orange:#E8894F;--rust:#B4501A;--blue:#6FA3E8;--card:#2A2E37;--line:#3A3E47;--muted:#DAD6CC;--dim:#9A968D}
+*{box-sizing:border-box}
+body{margin:0;width:1080px;height:1920px;overflow:hidden;background:var(--ink);color:var(--cream);font-family:'IBM Plex Sans',sans-serif}
+.scene{position:absolute;inset:0;padding:220px 90px 400px;display:flex;flex-direction:column;gap:36px;justify-content:center;opacity:0}
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:32px;letter-spacing:.08em;color:var(--orange)}
+.h{margin:0;font-family:'Fraunces',serif;font-weight:700;letter-spacing:-.02em;line-height:1.04}
+.p{margin:0;font-size:42px;line-height:1.4;color:var(--muted)}
+.p b{color:var(--cream)}
+.chip{display:inline-flex;align-items:center;padding:14px 26px;border-radius:16px;font-weight:600;font-size:42px;background:var(--card);color:var(--cream);white-space:nowrap}
+.rel{background:var(--orange);color:var(--ink);font-family:'IBM Plex Mono',monospace;font-weight:500}
+.row{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.card{background:var(--card);border-radius:30px;padding:34px 38px;display:flex;flex-direction:column;gap:18px}
+.label{font-family:'IBM Plex Mono',monospace;font-size:28px;color:var(--dim)}
+.media{position:relative;border-radius:30px;overflow:hidden;border:3px solid var(--line)}
+.media img{display:block;width:100%}
+.credit{font-family:'IBM Plex Mono',monospace;font-size:22px;color:var(--dim)}
+.box{position:absolute;border:5px solid var(--blue);border-radius:6px}
+.box span{position:absolute;left:-5px;top:-50px;background:var(--blue);color:var(--ink);font-weight:600;font-size:30px;padding:4px 14px;border-radius:6px 6px 6px 0}
+.big{font-family:'Fraunces',serif;font-weight:700;line-height:1;white-space:nowrap}
+.brand{position:absolute;z-index:5;left:90px;top:100px;display:flex;align-items:center}
+.brand img{height:68px}
+.tag{position:absolute;z-index:5;right:90px;top:118px;font-family:'IBM Plex Mono',monospace;font-size:26px;color:var(--dim)}
+.progress{position:absolute;z-index:5;left:90px;right:90px;top:192px;height:5px;background:var(--line);border-radius:3px}
+.progress div{height:5px;width:0;background:var(--orange);border-radius:3px}
+.icon{width:76px;height:76px;flex-shrink:0;border-radius:20px;background:var(--ink);display:flex;align-items:center;justify-content:center}
+</style>
+</head>
+<body>
+<div class="brand"><img src="../../../pipeline/logos/logo-claro.png" alt="Interas"></div>
+<div class="tag">IA explicada</div>
+<div class="progress"><div id="bar"></div></div>
+
+<!-- 1 · Gancho (0–5,5) -->
+<section class="scene" data-scene="0,5.5">
+<div class="eyebrow" data-in="0.1" data-fx="fade">NOVIDADE EM VISÃO COMPUTACIONAL</div>
+<h1 class="h" style="font-size:118px"><span data-in="0.2" data-fx="up" style="display:inline-block">Câmeras enxergam.</span> <span data-in="0.9" data-fx="up" style="display:inline-block;color:var(--orange)">Agora a IA também entende a cena.</span></h1>
+<p class="p" data-in="2.0" data-fx="up">Um modelo aberto, lançado em setembro, descreve <b>o que as pessoas e as coisas estão fazendo</b> numa imagem. Veja como funciona.</p>
+</section>
+
+<!-- 2 · Como é hoje (5,5–12) -->
+<section class="scene" data-scene="5.5,12">
+<div class="eyebrow" data-in="5.6" data-fx="fade">COMO É HOJE</div>
+<h2 class="h" style="font-size:86px" data-in="5.7" data-fx="up">A IA de câmera comum só faz uma lista.</h2>
+<div class="media" data-in="6.2" data-fx="fade">
+<img src="../img/bicicleta-cc0.jpg" alt="Homem andando de bicicleta numa rua">
+<div class="box" data-in="7.0" data-fx="pop" style="left:38.5%;top:36%;width:19.5%;height:38%"><span>pessoa</span></div>
+<div class="box" data-in="7.5" data-fx="pop" style="left:35%;top:54%;width:25%;height:32%;border-color:#8FD18B"><span style="background:#8FD18B;top:auto;bottom:-50px;border-radius:0 6px 6px 6px">bicicleta</span></div>
+</div>
+<p class="p" data-in="8.4" data-fx="up">Ela marca <b>“pessoa”</b> e <b>“bicicleta”</b>, mas não diz se a pessoa está andando, empurrando ou levando a bicicleta embora. <b>Quem interpreta a cena ainda é um humano.</b></p>
+<div class="credit" data-in="8.4" data-fx="fade">Ilustração. Foto: Clem Onojeghuo, domínio público (CC0).</div>
+</section>
+
+<!-- 3 · O que muda (12–19) -->
+<section class="scene" data-scene="12,19">
+<div class="eyebrow" data-in="12.1" data-fx="fade">O QUE O RELATEANYTHING FAZ</div>
+<h2 class="h" style="font-size:86px" data-in="12.2" data-fx="up">Ele liga os objetos com frases.</h2>
+<div class="media" data-in="12.6" data-fx="fade"><img data-kb="12.6,19" src="../img/demo-cena-2.png" alt="Resultado real do modelo: pessoa montando cavalo, com caixas e relações"></div>
+<div class="row" data-in="13.8" data-fx="pop"><span class="chip">pessoa</span><span class="chip rel">montando</span><span class="chip">cavalo</span></div>
+<p class="p" data-in="14.8" data-fx="up">Em vez de uma lista, sai uma descrição: <b>quem faz o quê com quem.</b> Nesta foto, ele achou 12 objetos e 12 relações entre eles.</p>
+<div class="credit" data-in="14.8" data-fx="fade">Resultado real do modelo. Foto: Subhrajyoti07, CC BY-SA 4.0.</div>
+</section>
+
+<!-- 4 · Você escolhe (19–26) -->
+<section class="scene" data-scene="19,26">
+<div class="eyebrow" data-in="19.1" data-fx="fade">O GRANDE DIFERENCIAL</div>
+<h2 class="h" style="font-size:86px" data-in="19.2" data-fx="up">Você diz o que procurar, <span style="color:var(--orange)">escrevendo.</span></h2>
+<div class="card" data-in="19.9" data-fx="up" style="font-family:'IBM Plex Mono',monospace;font-size:38px;line-height:1.55;color:var(--muted)">
+<div class="label">RELAÇÕES QUE IMPORTAM NO SEU CASO</div>
+<div data-in="20.4" data-fx="left" style="color:var(--orange)">“caído no chão”</div>
+<div data-in="20.8" data-fx="left" style="color:var(--orange)">“sem capacete”</div>
+<div data-in="21.2" data-fx="left" style="color:var(--orange)">“encostado na porta”</div>
+</div>
+<p class="p" data-in="21.8" data-fx="up">Antes, cada situação nova exigia <b>treinar a IA de novo</b>, com milhares de fotos. Aqui, basta escrever a relação. Ele já aprendeu mais de <b>19 mil relações diferentes</b>.</p>
+</section>
+
+<!-- 5 · Leve e rápido (26–33) -->
+<section class="scene" data-scene="26,33">
+<div class="eyebrow" data-in="26.1" data-fx="fade">LEVE E RÁPIDO</div>
+<h2 class="h" style="font-size:86px" data-in="26.2" data-fx="up">Roda até no navegador.</h2>
+<div class="media" data-in="26.6" data-fx="fade"><img data-kb="26.6,33" src="../img/demo-navegador.png" alt="Demo oficial rodando no navegador"></div>
+<div class="row" style="gap:20px;flex-wrap:nowrap">
+<div class="card" data-in="27.4" data-fx="up" style="flex:1;padding:26px 30px"><div class="big" style="font-size:84px"><span data-count="20" data-t0="27.5" data-t1="28.4">0</span> ms</div><div class="p" style="font-size:30px">por imagem, com placa de vídeo</div></div>
+<div class="card" data-in="27.7" data-fx="up" style="flex:1;padding:26px 30px"><div class="big" style="font-size:84px"><span data-count="7" data-t0="27.8" data-t1="28.7">0</span>/s</div><div class="p" style="font-size:30px">imagens num notebook, sem placa</div></div>
+</div>
+<p class="p" data-in="29.0" data-fx="up" style="font-size:38px">É pequeno: cabe num computador simples, <b>perto da câmera.</b></p>
+</section>
+
+<!-- 6 · Comparação (33–39,5) -->
+<section class="scene" data-scene="33,39.5">
+<div class="eyebrow" data-in="33.1" data-fx="fade">COMPARADO AOS CONCORRENTES</div>
+<h2 class="h" style="font-size:86px" data-in="33.2" data-fx="up">Mais que o triplo da nota no teste da área.</h2>
+<div class="card" data-in="33.8" data-fx="up">
+<div class="label">NOTA NO TESTE OV-SGG · MAIOR É MELHOR</div>
+<div style="display:flex;justify-content:space-between;font-size:38px"><span>RelateAnything</span><span style="font-family:'IBM Plex Mono',monospace"><span data-count="40.1" data-dec="1" data-t0="34.1" data-t1="35.3">0</span></span></div>
+<div style="height:40px;background:var(--ink);border-radius:6px"><div data-bar="89" data-t0="34.1" data-t1="35.3" style="height:40px;width:0;background:var(--orange);border-radius:6px"></div></div>
+<div style="display:flex;justify-content:space-between;font-size:38px;color:var(--muted)"><span>melhor concorrente aberto</span><span style="font-family:'IBM Plex Mono',monospace"><span data-count="11.8" data-dec="1" data-t0="34.1" data-t1="34.8">0</span></span></div>
+<div style="height:40px;background:var(--ink);border-radius:6px"><div data-bar="26" data-t0="34.1" data-t1="34.8" style="height:40px;width:0;background:#8A8F9C;border-radius:6px"></div></div>
+</div>
+<p class="p" data-in="35.6" data-fx="up">E é <b>7,8 vezes mais rápido</b>. Atenção: os números são do próprio autor e <b>ainda não foram confirmados</b> por outros pesquisadores.</p>
+</section>
+
+<!-- 7 · Para empresas (39,5–47,5) -->
+<section class="scene" data-scene="39.5,47.5" style="gap:24px">
+<div class="eyebrow" data-in="39.6" data-fx="fade">NA PRÁTICA, PARA EMPRESAS</div>
+<h2 class="h" style="font-size:82px" data-in="39.7" data-fx="up">A câmera passa a avisar, não só a gravar.</h2>
+<div class="card" data-in="40.4" data-fx="left" style="flex-direction:row;gap:26px;align-items:center;padding:24px 30px">
+<div class="icon"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#E8894F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 18h20M4 18v-2a8 8 0 0 1 16 0v2M12 8V4M9 5h6"></path></svg></div>
+<div><div style="font-size:38px;font-weight:600">Fábrica e obra</div><div class="p" style="font-size:32px">pessoa <b>sem capacete</b> perto da máquina → aviso ao técnico</div></div></div>
+<div class="card" data-in="41.4" data-fx="left" style="flex-direction:row;gap:26px;align-items:center;padding:24px 30px">
+<div class="icon"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#E8894F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21V9l9-6 9 6v12M9 21v-6h6v6"></path></svg></div>
+<div><div style="font-size:38px;font-weight:600">Condomínio</div><div class="p" style="font-size:32px">portão <b>aberto sem ninguém</b> há 2 min → aviso à portaria</div></div></div>
+<div class="card" data-in="42.4" data-fx="left" style="flex-direction:row;gap:26px;align-items:center;padding:24px 30px">
+<div class="icon"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#E8894F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"></path></svg></div>
+<div><div style="font-size:38px;font-weight:600">Cuidado com idosos</div><div class="p" style="font-size:32px">pessoa <b>caída no chão</b> → mensagem para a família</div></div></div>
+<div class="card" data-in="43.4" data-fx="left" style="flex-direction:row;gap:26px;align-items:center;padding:24px 30px">
+<div class="icon"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#E8894F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6h15l-2 9H8L6 3H3M9 20a1 1 0 1 0 0 .01M18 20a1 1 0 1 0 0 .01"></path></svg></div>
+<div><div style="font-size:38px;font-weight:600">Varejo</div><div class="p" style="font-size:32px">cliente <b>olhando a gôndola</b> → quanto tempo cada produto atrai</div></div></div>
+</section>
+
+<!-- 8 · No local (47,5–53,5) -->
+<section class="scene" data-scene="47.5,53.5">
+<div class="eyebrow" data-in="47.6" data-fx="fade">E A PRIVACIDADE?</div>
+<h2 class="h" style="font-size:90px" data-in="47.7" data-fx="up">A imagem fica. <span style="color:var(--orange)">Só o alerta sai.</span></h2>
+<div class="row" data-in="48.4" data-fx="up" style="flex-wrap:nowrap;gap:12px;font-size:32px;font-weight:600">
+<div class="card" style="flex:1;align-items:center;padding:24px 16px;text-align:center">câmera</div>
+<svg width="44" height="30" viewBox="0 0 44 30" fill="none" stroke="#E8894F" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M2 15h36M28 5l10 10-10 10"></path></svg>
+<div class="card" style="flex:1.3;align-items:center;padding:24px 16px;text-align:center;background:var(--orange);color:var(--ink)">mini-PC no local</div>
+<svg width="44" height="30" viewBox="0 0 44 30" fill="none" stroke="#E8894F" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M2 15h36M28 5l10 10-10 10"></path></svg>
+<div class="card" style="flex:1;align-items:center;padding:24px 16px;text-align:center">alerta</div>
+</div>
+<p class="p" data-in="49.3" data-fx="up">O modelo roda <b>num computador dentro da empresa</b>. O vídeo não vai para a nuvem: sai só uma mensagem como <b>“pessoa caída · corredor 2 · 14h32”</b>. Mais privacidade (LGPD) e menos custo.</p>
+</section>
+
+<!-- 9 · Fechamento (53,5–58,2) -->
+<section class="scene" data-scene="53.5,58.2" data-light style="background:var(--orange);color:var(--ink)">
+<h2 class="h" style="font-size:104px" data-in="53.6" data-fx="up">Quer saber se funciona nas suas câmeras?</h2>
+<p class="p" data-in="54.3" data-fx="up" style="color:var(--ink);font-size:44px">A Interas monta um teste no seu ambiente. <b style="color:var(--ink)">Comenta aqui ou chama no direct.</b></p>
+<div class="credit" data-in="54.8" data-fx="fade" style="color:var(--ink)">Fonte: RelateAnything, Neau (arXiv 2609.12552, set/2026).</div>
+</section>
+
+<script>
+const ease = p => 1 - Math.pow(1 - Math.min(Math.max(p, 0), 1), 3);
+const scenes = [...document.querySelectorAll('[data-scene]')];
+const items = [...document.querySelectorAll('[data-in]')];
+const counts = [...document.querySelectorAll('[data-count]')];
+const bars = [...document.querySelectorAll('[data-bar]')];
+const kbs = [...document.querySelectorAll('[data-kb]')];
+const brand = document.querySelector('.brand'), tag = document.querySelector('.tag'), prog = document.getElementById('bar');
+const END = 58.2;
+window.render = (t) => {
+  let active = null;
+  for (const s of scenes) {
+    const [a, b] = s.dataset.scene.split(',').map(Number);
+    const fi = ease((t - a) / 0.3), fo = 1 - ease((t - (b - 0.3)) / 0.3);
+    const on = t >= a && t < b;
+    s.style.opacity = on ? Math.min(fi, fo) : 0;
+    if (on) active = s;
+  }
+  for (const el of items) {
+    const p = ease((t - parseFloat(el.dataset.in)) / 0.5), fx = el.dataset.fx;
+    el.style.opacity = p;
+    el.style.transform = fx === 'up' ? `translateY(${(1 - p) * 50}px)` : fx === 'left' ? `translateX(${(1 - p) * -70}px)` : fx === 'pop' ? `scale(${0.85 + 0.15 * p})` : 'none';
+    if (fx === 'pop') el.style.transformOrigin = 'left top';
+  }
+  for (const el of counts) {
+    const p = ease((t - +el.dataset.t0) / (+el.dataset.t1 - +el.dataset.t0));
+    el.textContent = (+el.dataset.count * p).toFixed(+(el.dataset.dec || 0)).replace('.', ',');
+  }
+  for (const el of bars) {
+    const p = ease((t - +el.dataset.t0) / (+el.dataset.t1 - +el.dataset.t0));
+    el.style.width = (+el.dataset.bar * p) + '%';
+  }
+  for (const el of kbs) {
+    const [a, b] = el.dataset.kb.split(',').map(Number);
+    const p = Math.min(Math.max((t - a) / (b - a), 0), 1);
+    el.style.transform = `scale(${1 + 0.08 * p})`;
+  }
+  const light = active && active.hasAttribute('data-light');
+  brand.style.filter = light ? 'invert(1)' : 'none';
+  tag.style.color = light ? '#16181D' : '#9A968D';
+  prog.style.width = Math.min(t / END * 100, 100) + '%';
+  prog.style.background = light ? '#16181D' : '#E8894F';
+  prog.parentElement.style.background = light ? 'rgba(22,24,29,.25)' : '#3A3E47';
+};
+window.render(0);
+</script>
+</body>
+</html>

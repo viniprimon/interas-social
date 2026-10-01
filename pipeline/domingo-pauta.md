@@ -6,10 +6,10 @@ Um tema por semana, sem repetir. Ao publicar, mova o tema de "Ideias" para "Publ
 ## Publicados
 
 - 2026-09-27 — 5 golpes com IA para avisar seus pais (voz clonada, vídeo falso, falsa central, número novo, loja falsa)
+- 2026-10-04 — Senhas e verificação em duas etapas (senha repetida, gerenciador de senhas, WhatsApp, Instagram)
 
 ## Ideias (em ordem de prioridade)
 
-- Senhas: por que usar gerenciador de senhas e como ativar a verificação em duas etapas no WhatsApp, Instagram e banco
 - WhatsApp clonado: como acontece e como blindar a conta
 - Pix seguro: limites noturnos, Pix agendado, chave aleatória e o que é o MED
 - Golpes em compras de fim de ano e Black Friday

@@ -18,7 +18,7 @@ Todo post fecha com "o que isso muda para o seu negócio".
 | --- | --- | --- | --- |
 | Segunda | NVIDIA EM FOCO | `nvidia-em-foco` | O que a NVIDIA anunciou e o que muda para uma empresa comum |
 | Terça | HUMANOIDES | `humanoides` | Onde os robôs humanoides estão de verdade: o que já opera, o que é demonstração |
-| Quarta | IA NO SEU FONE | `manchetes-ia` | Manchetes de IA dos podcasts (rotina própria) |
+| Quarta | IA NO SEU FONE | `manchetes-ia` | Manchetes de IA descobertas nos podcasts e confirmadas na fonte oficial na manhã da quarta (rotina própria) |
 | Quinta | IA NA PRÁTICA | `ia-na-pratica` | Um caso de uso de IA para pequena empresa, passo a passo |
 | Sexta | SEGURANÇA PARA EMPRESAS | `seguranca-empresas` | Alerta ou controle de segurança da semana para empresas |
 | Sábado | PARA ENTENDER | `para-entender` | Aprofundamento do conceito mais importante da semana, para leigos |

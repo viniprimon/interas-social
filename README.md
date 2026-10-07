@@ -15,13 +15,13 @@ O repositório é público porque o Metricool só aceita imagens com link públi
 - Fontes: Fraunces 700 (títulos), IBM Plex Sans (texto), IBM Plex Mono (rótulos).
 - Cores: grafite `#16181D`, creme `#F4F1EA`, laranja `#E8894F`, laranja escuro `#B4501A` (rótulo em fundo claro), azul `#6FA3E8`, cinza `#2A2E37` (cartão em fundo escuro).
 - Formato 1080×1350; rodapé com logo e `n/N`. Capa escura, alternando claro/escuro, fechamento laranja.
-- Uma ideia por lâmina; toda manchete com fonte (podcast e data).
+- Uma ideia por lâmina; toda manchete com o podcast em que apareceu e a data, mais a fonte oficial do fato.
 
 ## Posts diários (grade da semana)
 
 Um post por dia, cada dia com uma série: segunda NVIDIA EM FOCO, terça HUMANOIDES, quarta manchetes de IA, quinta IA NA PRÁTICA, sexta SEGURANÇA PARA EMPRESAS, sábado PARA ENTENDER, domingo Domingo Seguro. A grade completa, as fontes oficiais de cada série, as ideias de reserva e o histórico ficam em `pipeline/pauta-diaria.md`.
 
-- **Pesquisa no dia da postagem.** A apuração é feita no mesmo dia em que o post vai ao ar, para não publicar notícia defasada.
+- **Pesquisa no dia da postagem.** A apuração é feita no mesmo dia em que o post vai ao ar, para não publicar notícia defasada. Vale também para as manchetes de quarta: os podcasts servem para descobrir os assuntos, e cada manchete é confirmada na fonte oficial na manhã da quarta.
 - **Só fonte oficial.** O fato só entra se foi confirmado no site, blog, sala de imprensa ou documentação da empresa ou do órgão responsável. Imprensa serve para descobrir a notícia.
 - Visual: o editorial de semana (`pipeline/modelo/`), com o nome da série no eyebrow da capa (`<SÉRIE> · <MÊS> <ANO>`). Pasta: `posts/AAAA-MM-DD-<slug-da-série>/`.
 - Público fora da área de TI: todo termo técnico é explicado na própria lâmina, e o fechamento traz 3 pontos práticos para quem empreende.

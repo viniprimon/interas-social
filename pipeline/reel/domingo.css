@@ -1,0 +1,50 @@
+/* Reels da série Domingo Seguro (cartilha: creme, azul-marinho e amarelo). */
+:root{--paper:#FFF7E6;--navy:#13265C;--yellow:#FFC43D;--coral:#B8321C;--green:#1D6B45;--muted:#3D4A6B}
+*{box-sizing:border-box}
+body{margin:0;width:1080px;height:1920px;overflow:hidden;background:var(--paper);color:var(--navy);font-family:'Atkinson Hyperlegible',sans-serif}
+
+/* Cenas. A área útil vai de 220 px a 1520 px: o Instagram cobre o topo e o rodapé. */
+.scene{position:absolute;inset:0;padding:240px 84px 410px;display:flex;flex-direction:column;gap:34px;justify-content:center;opacity:0;background:var(--paper);color:var(--navy)}
+.scene[data-tone="accent"]{background:var(--yellow)}
+.scene[data-tone="dark"]{background:var(--navy);color:#fff}
+
+/* Cabeçalho fixo: logo, selo da série e barra de progresso. */
+.top{position:absolute;z-index:99;left:84px;right:84px;top:96px;display:flex;justify-content:space-between;align-items:center}
+.top img{height:66px;display:none}
+.top .tag{padding:12px 26px;background:var(--navy);color:var(--yellow);border-radius:40px;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:24px;letter-spacing:.06em}
+.progress{position:absolute;z-index:99;left:84px;right:84px;top:194px;height:6px;background:rgba(19,38,92,.18);border-radius:3px}
+.progress div{height:6px;width:0;background:var(--navy);border-radius:3px}
+body[data-tone="light"] .top .l-azul,body[data-tone="accent"] .top .l-azul{display:block}
+body[data-tone="dark"] .top .l-claro{display:block}
+body[data-tone="dark"] .top .tag{background:var(--yellow);color:var(--navy)}
+body[data-tone="dark"] .progress{background:rgba(255,255,255,.22)}
+body[data-tone="dark"] .progress div{background:var(--yellow)}
+
+/* Texto: corpo nunca menor que 38 px (público com mais idade). */
+.eyebrow{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:32px;letter-spacing:.06em;color:var(--coral)}
+.scene[data-tone="dark"] .eyebrow{color:var(--yellow)}
+.h{margin:0;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;letter-spacing:-.02em;line-height:1.02;font-size:88px}
+.h.xl{font-size:116px;letter-spacing:-.03em;line-height:1.14}
+.h em{font-style:normal;background:var(--navy);color:var(--yellow);padding:0 16px;border-radius:16px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.scene[data-tone="dark"] .h{color:var(--yellow)}
+.p{margin:0;font-size:44px;line-height:1.36}
+.p.s{font-size:38px}
+.scene[data-tone="dark"] .p b{color:var(--yellow)}
+.scene[data-tone="dark"] .card .p b{color:var(--navy)}
+.credit{font-size:24px;color:var(--muted)}
+.scene[data-tone="dark"] .credit{color:#C9D2EA}
+
+/* Blocos */
+.row{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.card{background:#fff;color:var(--navy);border:4px solid var(--navy);border-radius:32px;box-shadow:10px 10px 0 var(--navy);padding:32px 36px;display:flex;flex-direction:column;gap:14px}
+.card.ok{background:var(--green);color:#fff}
+.card.ok .label{color:var(--yellow)}
+.scene[data-tone="dark"] .card{border:none;box-shadow:none}
+.card.item{flex-direction:row;gap:26px;align-items:center;padding:26px 32px}
+.label{display:flex;gap:14px;align-items:center;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:30px;color:var(--coral)}
+.label svg{width:36px;height:36px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.num{width:96px;height:96px;flex-shrink:0;border-radius:48px;background:var(--yellow);border:4px solid var(--navy);color:var(--navy);display:flex;align-items:center;justify-content:center;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:54px}
+.scene[data-tone="dark"] .num{border:none}
+.num.big{width:150px;height:150px;border-radius:75px;font-size:88px}
+.step{font-family:'Atkinson Hyperlegible',sans-serif;font-weight:700;font-size:40px;padding:14px 22px;background:var(--paper);border:3px solid var(--navy);border-radius:16px;white-space:nowrap}
+.arrow{width:36px;height:30px;fill:none;stroke:var(--navy);stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}

@@ -1,0 +1,74 @@
+/* Reels da série de semana (visual editorial: grafite, creme e laranja). */
+:root{--ink:#16181D;--cream:#F4F1EA;--orange:#E8894F;--rust:#B4501A;--blue:#6FA3E8;--card:#2A2E37;--line:#3A3E47;--muted:#DAD6CC;--dim:#9A968D}
+*{box-sizing:border-box}
+body{margin:0;width:1080px;height:1920px;overflow:hidden;background:var(--ink);color:var(--cream);font-family:'IBM Plex Sans',sans-serif}
+
+/* Cenas. A área útil vai de 220 px a 1520 px: o Instagram cobre o topo e o rodapé. */
+.scene{position:absolute;inset:0;padding:230px 90px 410px;display:flex;flex-direction:column;gap:34px;justify-content:center;opacity:0;background:var(--ink);color:var(--cream)}
+.scene[data-tone="accent"]{background:var(--orange);color:var(--ink)}
+.scene[data-tone="light"]{background:var(--cream);color:var(--ink)}
+
+/* Cabeçalho fixo: logo, etiqueta e barra de progresso. */
+.top{position:absolute;z-index:99;left:90px;right:90px;top:100px;display:flex;justify-content:space-between;align-items:center}
+.top img{height:68px;display:none}
+.top .tag{font-family:'IBM Plex Mono',monospace;font-size:26px;color:var(--dim)}
+.progress{position:absolute;z-index:99;left:90px;right:90px;top:192px;height:5px;background:var(--line);border-radius:3px}
+.progress div{height:5px;width:0;background:var(--orange);border-radius:3px}
+body[data-tone="dark"] .top .l-claro{display:block}
+body[data-tone="light"] .top .l-azul{display:block}
+body[data-tone="accent"] .top .l-preto{display:block}
+body[data-tone="light"] .top .tag,body[data-tone="accent"] .top .tag{color:var(--ink)}
+body[data-tone="light"] .progress{background:#D9D4C8}
+body[data-tone="accent"] .progress{background:rgba(22,24,29,.25)}
+body[data-tone="accent"] .progress div{background:var(--ink)}
+
+/* Texto */
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:32px;letter-spacing:.08em;color:var(--orange)}
+.scene[data-tone="accent"] .eyebrow{color:var(--ink)}
+.scene[data-tone="light"] .eyebrow{color:var(--rust)}
+.h{margin:0;font-family:'Fraunces',serif;font-weight:700;letter-spacing:-.02em;line-height:1.04;font-size:86px}
+.h.xl{font-size:112px}
+.h em{font-style:normal;color:var(--orange)}
+.p{margin:0;font-size:42px;line-height:1.4;color:var(--muted)}
+.p b{color:var(--cream)}
+.p.s{font-size:34px}
+.scene[data-tone="accent"] .p,.scene[data-tone="accent"] .p b{color:var(--ink)}
+.scene[data-tone="light"] .p{color:#4A4740}
+.scene[data-tone="light"] .p b{color:var(--ink)}
+.label{font-family:'IBM Plex Mono',monospace;font-size:28px;color:var(--dim)}
+.credit{font-family:'IBM Plex Mono',monospace;font-size:22px;color:var(--dim)}
+.scene[data-tone="accent"] .credit{color:var(--ink)}
+
+/* Blocos */
+.row{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.card{background:var(--card);border-radius:30px;padding:32px 36px;display:flex;flex-direction:column;gap:14px}
+.card.line{background:transparent;border:3px solid var(--orange)}
+.card.hl{background:var(--orange);color:var(--ink)}
+.card.hl .p,.card.hl .p b,.card.hl .label{color:var(--ink)}
+.scene[data-tone="accent"] .card{background:var(--ink);color:var(--cream)}
+.scene[data-tone="accent"] .card .p{color:var(--muted)}
+.scene[data-tone="accent"] .card .p b{color:var(--cream)}
+.card.item{flex-direction:row;gap:26px;align-items:center;padding:26px 30px}
+.card .t{font-size:40px;font-weight:600;line-height:1.2}
+.chip{display:inline-flex;align-items:center;padding:14px 26px;border-radius:16px;font-weight:600;font-size:42px;background:var(--card);color:var(--cream);white-space:nowrap}
+.chip.rel{background:var(--orange);color:var(--ink);font-family:'IBM Plex Mono',monospace;font-weight:500}
+.icon{width:80px;height:80px;flex-shrink:0;border-radius:20px;background:var(--ink);display:flex;align-items:center;justify-content:center}
+.icon svg{width:46px;height:46px;fill:none;stroke:var(--orange);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.num{width:84px;height:84px;flex-shrink:0;border-radius:42px;background:var(--orange);color:var(--ink);display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-weight:700;font-size:48px}
+.scene[data-tone="accent"] .num{background:var(--orange)}
+.big{font-family:'Fraunces',serif;font-weight:700;line-height:1;white-space:nowrap;font-size:88px}
+.media{position:relative;border-radius:30px;overflow:hidden;border:3px solid var(--line)}
+.media img{display:block;width:100%}
+.track{height:40px;background:var(--ink);border-radius:6px}
+.track div{height:40px;width:0;background:var(--orange);border-radius:6px}
+.track div.b{background:#8A8F9C}
+.arrow{align-self:center;width:44px;height:36px;fill:none;stroke:var(--orange);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+
+/* Cartões em cena clara: brancos, com texto escuro. */
+.scene[data-tone="light"] .card{background:#fff;border:2px solid #D9D4C8;color:var(--ink)}
+.scene[data-tone="light"] .card .p{color:#4A4740}
+.scene[data-tone="light"] .label{color:#6B675F}
+.scene[data-tone="light"] .chip{background:#fff;border:2px solid #D9D4C8;color:var(--ink)}
+.figure{display:block;width:100%;height:auto}

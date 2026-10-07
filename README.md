@@ -17,6 +17,15 @@ O repositório é público porque o Metricool só aceita imagens com link públi
 - Formato 1080×1350; rodapé com logo e `n/N`. Capa escura, alternando claro/escuro, fechamento laranja.
 - Uma ideia por lâmina; toda manchete com fonte (podcast e data).
 
+## Posts diários (grade da semana)
+
+Um post por dia, cada dia com uma série: segunda NVIDIA EM FOCO, terça HUMANOIDES, quarta manchetes de IA, quinta IA NA PRÁTICA, sexta SEGURANÇA PARA EMPRESAS, sábado PARA ENTENDER, domingo Domingo Seguro. A grade completa, as fontes oficiais de cada série, as ideias de reserva e o histórico ficam em `pipeline/pauta-diaria.md`.
+
+- **Pesquisa no dia da postagem.** A apuração é feita no mesmo dia em que o post vai ao ar, para não publicar notícia defasada.
+- **Só fonte oficial.** O fato só entra se foi confirmado no site, blog, sala de imprensa ou documentação da empresa ou do órgão responsável. Imprensa serve para descobrir a notícia.
+- Visual: o editorial de semana (`pipeline/modelo/`), com o nome da série no eyebrow da capa (`<SÉRIE> · <MÊS> <ANO>`). Pasta: `posts/AAAA-MM-DD-<slug-da-série>/`.
+- Público fora da área de TI: todo termo técnico é explicado na própria lâmina, e o fechamento traz 3 pontos práticos para quem empreende.
+
 ## Série Domingo Seguro (visual próprio)
 
 Segurança digital para a família, todo domingo. O visual é propositalmente diferente do editorial de semana:

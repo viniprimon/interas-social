@@ -23,6 +23,7 @@ Um post por dia, cada dia com uma série: segunda NVIDIA EM FOCO, terça HUMANOI
 
 - **Pesquisa no dia da postagem.** A apuração é feita no mesmo dia em que o post vai ao ar, para não publicar notícia defasada. Vale também para as manchetes de quarta: os podcasts servem para descobrir os assuntos, e cada manchete é confirmada na fonte oficial na manhã da quarta.
 - **Só fonte oficial.** O fato só entra se foi confirmado no site, blog, sala de imprensa ou documentação da empresa ou do órgão responsável. Imprensa serve para descobrir a notícia.
+- **Sem tema parecido.** Antes de fechar a pauta e de novo antes de agendar, confira o que já saiu e o que está na fila: "Publicados" em `pipeline/pauta-diaria.md` e `pipeline/domingo-pauta.md`, os posts dos últimos 30 dias em `posts/` e os agendados dos próximos 7 dias no Metricool. Mesma notícia, mesmo produto ou mesmo conceito com o mesmo ângulo, em qualquer série, não entra; notícia repetida só volta com fato oficial novo, como atualização.
 - Visual: o editorial de semana (`pipeline/modelo/`), com o nome da série no eyebrow da capa (`<SÉRIE> · <MÊS> <ANO>`). Pasta: `posts/AAAA-MM-DD-<slug-da-série>/`.
 - Público fora da área de TI: todo termo técnico é explicado na própria lâmina, e o fechamento traz 3 pontos práticos para quem empreende.
 

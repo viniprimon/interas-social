@@ -12,6 +12,16 @@ Todo post fecha com "o que isso muda para o seu negócio".
 - Cada lâmina com fatos traz a fonte oficial e a data.
 - Nunca entram: rumor, exploração infantil ou violência, conteúdo político-partidário, acusações contra pessoas, dados pessoais, recomendação de investimento.
 
+## Sem tema parecido (vale para todas as séries, inclusive o Domingo Seguro)
+
+Antes de fechar a pauta e de novo antes de agendar, confira:
+
+1. "Publicados" neste arquivo e em `domingo-pauta.md`.
+2. As legendas e as lâminas dos posts dos últimos 30 dias em `posts/`.
+3. Os posts agendados no Metricool de hoje até 7 dias à frente.
+
+É parecido: a mesma notícia, o mesmo produto ou anúncio, ou o mesmo conceito com o mesmo ângulo, em qualquer série. Se houver, troque de tema ou de ângulo. Notícia que já saiu só volta com fato oficial novo, como atualização. Se o conflito aparecer só na conferência final, o post não é agendado e o Vini é avisado. O sábado (PARA ENTENDER) pode partir de um assunto da semana, mas explica o conceito, sem repetir manchetes e lâminas. A sexta (SEGURANÇA PARA EMPRESAS) não repete o assunto do Domingo Seguro anterior nem o do próximo.
+
 ## Grade
 
 | Dia | Série (eyebrow da capa) | Slug da pasta | O que é |

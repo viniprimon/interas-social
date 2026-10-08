@@ -46,10 +46,11 @@ Antes de fechar a pauta e de novo antes de agendar, confira:
 
 - NVIDIA EM FOCO: o que é uma GPU e por que a IA depende dela; o que é um data center de IA; IA no computador do escritório (PC com GPU) x IA na nuvem.
 - HUMANOIDES: por que robô com forma humana; diferença entre robô humanoide, braço robótico e robô de armazém; automação que já cabe em pequena empresa.
-- IA NA PRÁTICA: atendimento no WhatsApp com IA; propostas e orçamentos; ata e tarefas de reunião; conciliação financeira; controle de estoque; respostas a avaliações de clientes.
+- IA NA PRÁTICA: propostas e orçamentos; ata e tarefas de reunião; conciliação financeira; controle de estoque; respostas a avaliações de clientes.
 - SEGURANÇA PARA EMPRESAS: verificação em duas etapas nas contas da empresa; backup testado; atualizações; contas separadas e acesso mínimo; golpe do boleto e do fornecedor falso; o que fazer na primeira hora de um incidente.
 - PARA ENTENDER: o que é um agente de IA; o que é um modelo de linguagem; IA local x IA na nuvem; o que é uma API; o que é um deepfake.
 
 ## Publicados
 
 (a rotina acrescenta uma linha por post: data — série — tema — fontes oficiais usadas)
+- 2026-10-08 — IA NA PRÁTICA — Atendimento no WhatsApp com IA: Meta Business Agent no app WhatsApp Business (o que a IA responde, o que continua com gente, cuidados, custo e 3 passos) — WhatsApp Business, página do Meta Business Agent (atualizada em 5/out/2026), guia de uso (11/jun/2026) e página do Meta One (29/set/2026); Meta Newsroom (3/jun/2026 e 15/set/2026); Política de Mensagens do WhatsApp Business (atualizada em 23/set/2026); Meta for Developers, preços da Plataforma (cobrança de mensagens de serviço a partir de 1º/out/2026); Lei 13.709/2018 (LGPD), arts. 5º, 6º e 9º, planalto.gov.br

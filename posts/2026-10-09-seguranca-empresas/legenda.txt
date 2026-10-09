@@ -1,0 +1,15 @@
+Atualização pendente é porta aberta. E esta semana trouxe bons motivos para olhar para isso na sua empresa. 🔐
+
+SEGURANÇA PARA EMPRESAS desta sexta: o controle básico que mais gente adia. Conferimos tudo hoje nas fontes oficiais (Google, Microsoft, CERT.br, CISA e NCSC).
+
+▸ Para entender: correção (em inglês, "patch") é o trecho de programa que fecha uma falha. Ela só protege depois de instalada.
+▸ Navegador: o Chrome 155, publicado em 6/out, traz 247 correções de segurança, 4 delas críticas. Ele baixa sozinho, mas só aplica quando você fecha e abre o navegador.
+▸ Windows 10: na terça, 13/out, termina o 1º ano do ESU, a extensão paga de correções para empresas. O preço de tabela é US$ 61 por PC no ano 1 e dobra a cada ano. O programa de uso pessoal não vale para uso comercial.
+▸ Três caminhos: Windows 11 gratuito no PC compatível, troca planejada do PC antigo ou extensão paga, no máximo até 10/out/2028.
+▸ Rotina: a Microsoft publica correções na segunda terça-feira de cada mês. Use a data como lembrete para conferir computadores, celulares, navegadores, roteador e programas.
+
+O recado prático: ligue a atualização automática e reinicie, marque um dia por mês com um responsável e conte quantos PCs ainda usam Windows 10.
+
+Quem cuida das atualizações na sua empresa? Conta aqui 👇
+
+#InteligenciaArtificial #IA #Interas #Ciberseguranca #SegurancaDaInformacao #Windows10 #PME

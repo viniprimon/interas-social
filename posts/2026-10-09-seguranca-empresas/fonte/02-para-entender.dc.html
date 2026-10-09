@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Para entender</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',sans-serif;color:#16181D;background:#F4F1EA}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px 88px 72px; display: flex; flex-direction: column; gap: 28px; background: #F4F1EA; color: #16181D; font-family: 'IBM Plex Sans', sans-serif">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; letter-spacing: 0.08em; color: #B4501A">01 · PARA ENTENDER</div>
+<h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 700; font-size: 76px; line-height: 1.05; letter-spacing: -0.02em">O que é uma correção de segurança.</h2>
+<div style="font-size: 30px; line-height: 1.4; color: #4A4740">Todo programa tem falhas. Quando uma é descoberta, o fabricante publica uma <b style="color: #16181D">correção</b> (em inglês, “patch”). Ela só protege <b style="color: #16181D">depois de instalada</b>: até lá, a falha continua aberta no seu equipamento.</div>
+<div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center">
+<svg viewBox="0 0 904 300" role="img" aria-label="Esquema ilustrativo: linha do tempo com três momentos, falha descoberta, correção publicada pelo fabricante e correção instalada por você. O intervalo entre a publicação e a instalação é a janela de risco" style="display: block; width: 100%; height: auto">
+<rect x="372" y="0" width="402" height="58" rx="14" fill="#E8894F"></rect>
+<text x="573" y="38" text-anchor="middle" font-family="IBM Plex Mono" font-weight="500" font-size="24" fill="#16181D">JANELA DE RISCO</text>
+<path d="M130 120H410" stroke="#16181D" stroke-width="6" stroke-linecap="round" fill="none"></path>
+<path d="M410 120H736" stroke="#E8894F" stroke-width="16" stroke-linecap="round" fill="none"></path>
+<circle cx="130" cy="120" r="30" fill="#FFFFFF" stroke="#16181D" stroke-width="5"></circle>
+<text x="130" y="131" text-anchor="middle" font-family="Fraunces" font-weight="700" font-size="32" fill="#16181D">1</text>
+<circle cx="410" cy="120" r="30" fill="#16181D"></circle>
+<text x="410" y="131" text-anchor="middle" font-family="Fraunces" font-weight="700" font-size="32" fill="#F4F1EA">2</text>
+<circle cx="736" cy="120" r="30" fill="#16181D"></circle>
+<text x="736" y="131" text-anchor="middle" font-family="Fraunces" font-weight="700" font-size="32" fill="#F4F1EA">3</text>
+<text x="130" y="196" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="28" fill="#16181D">Falha</text>
+<text x="130" y="232" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="28" fill="#16181D">descoberta</text>
+<text x="410" y="196" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="28" fill="#16181D">Correção</text>
+<text x="410" y="232" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="28" fill="#16181D">publicada</text>
+<text x="410" y="270" text-anchor="middle" font-family="IBM Plex Sans" font-size="24" fill="#6B675F">pelo fabricante</text>
+<text x="736" y="196" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="28" fill="#16181D">Correção</text>
+<text x="736" y="232" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="28" fill="#16181D">instalada</text>
+<text x="736" y="270" text-anchor="middle" font-family="IBM Plex Sans" font-size="24" fill="#6B675F">por você</text>
+</svg>
+</div>
+<div style="padding: 30px 36px; background: #16181D; color: #F4F1EA; border-radius: 24px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 22px; color: #E8894F">POR QUE IMPORTA</div>
+<div style="font-size: 29px; line-height: 1.4">A CISA, agência de cibersegurança dos EUA, mantém um catálogo de falhas <b>já usadas em ataques</b>. Só em 2 e 4/out, entraram mais 3.</div>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; line-height: 1.4; color: #6B675F">Fonte: CERT.br, Cartilha de Segurança, fascículo Computadores (abr/2024); CISA, avisos de 2 e 4/out/2026. Esquema ilustrativo.</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #6B675F; border-top: 1px solid #D9D4C8; padding-top: 28px">
+<img src="logo-azul" alt="Interas — Gestão em Tecnologia, 27 anos" style="height: 64px; width: auto; display: block">
+<span style="font-family: 'IBM Plex Mono', monospace">2/7</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

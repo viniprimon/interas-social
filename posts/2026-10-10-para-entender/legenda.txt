@@ -1,0 +1,15 @@
+"Agente de IA" foi a expressão da semana. Mas o que ela quer dizer, na prática? 🧩
+
+PARA ENTENDER deste sábado: o conceito por trás das manchetes, explicado para quem toca um negócio. Conferimos tudo hoje nas fontes oficiais (Google Cloud, OpenAI, Anthropic, Microsoft, Meta, NIST e NCSC).
+
+▸ O que é: um programa que usa IA para perseguir um objetivo e concluir tarefas em seu nome. O chatbot responde; o agente faz.
+▸ Como funciona: três peças (o modelo, que é o "cérebro"; as ferramentas, que são as "mãos"; e as instruções, que são as regras) e um ciclo: ele age, olha o resultado e decide o próximo passo.
+▸ Nem tudo é agente: no fluxo com roteiro, alguém define os passos antes; no agente, a IA decide sozinha. O roteiro é mais previsível; o agente é mais flexível, custa mais e pode encadear erros.
+▸ Autonomia: há agente que só sugere, agente que pede aprovação antes do que é sensível e agente que age sozinho dentro dos limites. Quem configura decide.
+▸ Limites: o agente erra e pode ser enganado por uma ordem escondida num e-mail ou site, a chamada injeção de prompt. Dá para reduzir esse risco, não eliminar.
+
+O recado prático: comece por uma tarefa repetitiva e de baixo risco, dê acesso mínimo e deixe pagamento, reembolso e cancelamento com uma pessoa. E guarde o registro do que o agente fez.
+
+Na sua empresa, o que um agente de IA nunca faria sem a sua aprovação? Conta aqui 👇
+
+#InteligenciaArtificial #IA #Interas #AgentesDeIA #ParaEntender #Automacao #PME

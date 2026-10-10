@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Limites</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',sans-serif;color:#16181D;background:#F4F1EA}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px 88px 72px; display: flex; flex-direction: column; gap: 26px; background: #F4F1EA; color: #16181D; font-family: 'IBM Plex Sans', sans-serif">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; letter-spacing: 0.08em; color: #B4501A">05 · LIMITES</div>
+<h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 700; font-size: 72px; line-height: 1.05; letter-spacing: -0.02em">O agente erra. E pode ser enganado.</h2>
+<div style="padding: 24px 32px; background: #FFFFFF; border: 2px solid #D9D4C8; border-radius: 24px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 22px; color: #B4501A">ERRO EM CADEIA</div>
+<div style="font-size: 28px; line-height: 1.38">Como ele encadeia vários passos, um erro no começo <b>contamina os seguintes</b>. E mais autonomia custa mais.</div>
+</div>
+<div style="padding: 24px 32px; background: #FFFFFF; border: 2px solid #D9D4C8; border-radius: 24px; display: flex; flex-direction: column; gap: 16px; flex-grow: 1; justify-content: center">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 22px; color: #B4501A">INSTRUÇÃO ESCONDIDA</div>
+<svg viewBox="0 0 904 150" role="img" aria-label="Esquema ilustrativo: um conteúdo de fora, como e-mail, site ou PDF, traz uma ordem escondida; o agente lê e pode executar uma ação que ninguém pediu" style="display: block; width: 100%; height: auto">
+<rect x="0" y="4" width="270" height="112" rx="20" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="3"></rect>
+<text x="135" y="52" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#16181D">Conteúdo de fora</text>
+<text x="135" y="86" text-anchor="middle" font-family="IBM Plex Sans" font-size="21" fill="#6B675F">e-mail, site, PDF</text>
+<rect x="28" y="124" width="214" height="26" rx="13" fill="#B4501A"></rect>
+<text x="135" y="143" text-anchor="middle" font-family="IBM Plex Mono" font-weight="500" font-size="16" fill="#FFFFFF">ORDEM ESCONDIDA</text>
+<path d="M280 60H320" stroke="#B4501A" stroke-width="4" fill="none" stroke-linecap="round"></path><path d="M311 51l10 9-10 9" stroke="#B4501A" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+<rect x="332" y="4" width="240" height="112" rx="20" fill="#E8894F"></rect>
+<text x="452" y="52" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#16181D">Agente lê</text>
+<text x="452" y="86" text-anchor="middle" font-family="IBM Plex Sans" font-size="21" fill="#16181D">e pode obedecer</text>
+<path d="M582 60H622" stroke="#B4501A" stroke-width="4" fill="none" stroke-linecap="round"></path><path d="M613 51l10 9-10 9" stroke="#B4501A" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+<rect x="634" y="4" width="268" height="112" rx="20" fill="none" stroke="#B4501A" stroke-width="3" stroke-dasharray="10 9"></rect>
+<text x="768" y="52" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#B4501A">Ação indevida</text>
+<text x="768" y="86" text-anchor="middle" font-family="IBM Plex Sans" font-size="21" fill="#6B675F">que ninguém pediu</text>
+</svg>
+<div style="font-size: 27px; line-height: 1.38">É a <b>injeção de prompt</b>: uma ordem maliciosa escondida no conteúdo que o agente lê. Para o NCSC, centro de cibersegurança do Reino Unido, dá para reduzir esse risco, não eliminar.</div>
+</div>
+<div style="padding: 24px 36px; background: #16181D; color: #F4F1EA; border-radius: 24px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 22px; color: #E8894F">O QUE FAZER</div>
+<div style="font-size: 28px; line-height: 1.38">Dar só o <b>acesso que a tarefa exige</b>, pôr <b>uma pessoa</b> nas ações de risco e guardar o <b>registro</b> do que o agente fez.</div>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; line-height: 1.4; color: #6B675F">Fonte: Anthropic, 19/dez/2024 e 9/abr/2026; NCSC (Reino Unido), 8/dez/2025; OpenAI, guia prático de agentes. Esquema ilustrativo.</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #6B675F; border-top: 1px solid #D9D4C8; padding-top: 28px">
+<img src="logo-azul" alt="Interas — Gestão em Tecnologia, 27 anos" style="height: 64px; width: auto; display: block">
+<span style="font-family: 'IBM Plex Mono', monospace">6/7</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

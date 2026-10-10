@@ -1,0 +1,16 @@
+"Agente de IA" foi a expressão da semana. Mas o que ela quer dizer? 🧩
+
+Em 1 minuto, o conceito explicado para quem toca um negócio:
+
+▸ O que é: o chatbot responde, o agente recebe um objetivo e executa os passos
+▸ Como funciona: três peças (modelo, ferramentas e instruções) e um ciclo de agir, olhar o resultado e decidir o próximo passo
+▸ Roteiro fixo não é agente: comece pelo mais simples
+▸ Autonomia: sugere, pede aprovação ou age sozinho dentro dos limites
+▸ Limites: o agente erra e pode ser enganado por uma ordem escondida num e-mail ou site
+▸ Três regras antes de usar
+
+O carrossel no perfil traz a explicação completa, com as fontes oficiais.
+
+Na sua empresa, o que um agente de IA nunca faria sem a sua aprovação? Conta aqui 👇
+
+#InteligenciaArtificial #IA #AgentesDeIA #ParaEntender #Automacao #PME #Interas

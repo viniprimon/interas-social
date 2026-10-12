@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Para entender</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',sans-serif;color:#16181D;background:#F4F1EA}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px 88px 72px; display: flex; flex-direction: column; gap: 30px; background: #F4F1EA; color: #16181D; font-family: 'IBM Plex Sans', sans-serif">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; letter-spacing: 0.08em; color: #B4501A">PARA ENTENDER</div>
+<h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 700; font-size: 72px; line-height: 1.05; letter-spacing: -0.02em">Por que os chips da NVIDIA importam para a IA.</h2>
+<div style="font-size: 30px; line-height: 1.4; color: #4A4740">Um modelo de IA é, por dentro, uma quantidade enorme de <b style="color: #16181D">contas parecidas</b>. O chip gráfico (<b style="color: #16181D">GPU</b>) tem milhares de núcleos, pequenas calculadoras, que fazem essas contas <b style="color: #16181D">ao mesmo tempo</b>.</div>
+<div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center">
+<svg viewBox="0 0 904 330" role="img" aria-label="Esquema ilustrativo. À esquerda, processador comum com poucos núcleos grandes, que fazem tarefas em sequência. À direita, chip gráfico com dezenas de núcleos pequenos, que fazem muitas contas ao mesmo tempo" style="display: block; width: 100%; height: auto">
+<text x="0" y="30" font-family="IBM Plex Mono" font-weight="500" font-size="22" fill="#6B675F">PROCESSADOR (CPU)</text>
+<rect x="20" y="70" width="96" height="96" rx="14" fill="#16181D"></rect><rect x="130" y="70" width="96" height="96" rx="14" fill="#16181D"></rect><rect x="20" y="180" width="96" height="96" rx="14" fill="#16181D"></rect><rect x="130" y="180" width="96" height="96" rx="14" fill="#16181D"></rect>
+<text x="0" y="318" font-family="IBM Plex Sans" font-size="24" fill="#16181D">Poucos núcleos grandes</text>
+<text x="486" y="30" font-family="IBM Plex Mono" font-weight="500" font-size="22" fill="#B4501A">CHIP GRÁFICO (GPU)</text>
+<rect x="486" y="62" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="520" y="62" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="554" y="62" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="588" y="62" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="622" y="62" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="656" y="62" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="690" y="62" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="724" y="62" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="758" y="62" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="792" y="62" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="826" y="62" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="860" y="62" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="486" y="96" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="520" y="96" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="554" y="96" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="588" y="96" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="622" y="96" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="656" y="96" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="690" y="96" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="724" y="96" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="758" y="96" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="792" y="96" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="826" y="96" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="860" y="96" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="486" y="130" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="520" y="130" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="554" y="130" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="588" y="130" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="622" y="130" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="656" y="130" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="690" y="130" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="724" y="130" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="758" y="130" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="792" y="130" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="826" y="130" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="860" y="130" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="486" y="164" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="520" y="164" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="554" y="164" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="588" y="164" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="622" y="164" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="656" y="164" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="690" y="164" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="724" y="164" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="758" y="164" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="792" y="164" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="826" y="164" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="860" y="164" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="486" y="198" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="520" y="198" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="554" y="198" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="588" y="198" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="622" y="198" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="656" y="198" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="690" y="198" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="724" y="198" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="758" y="198" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="792" y="198" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="826" y="198" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="860" y="198" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="486" y="232" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="520" y="232" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="554" y="232" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="588" y="232" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="622" y="232" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="656" y="232" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="690" y="232" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="724" y="232" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="758" y="232" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="792" y="232" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="826" y="232" width="26" height="26" rx="5" fill="#E8894F"></rect><rect x="860" y="232" width="26" height="26" rx="5" fill="#E8894F"></rect>
+<text x="486" y="318" font-family="IBM Plex Sans" font-size="24" fill="#16181D">Milhares de núcleos pequenos</text>
+<line x1="380" y1="60" x2="380" y2="300" stroke="#D9D4C8" stroke-width="3"></line>
+</svg>
+</div>
+<div style="padding: 28px 36px; background: #16181D; color: #F4F1EA; border-radius: 24px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 22px; color: #E8894F">POR QUE IMPORTA PARA O SEU NEGÓCIO</div>
+<div style="font-size: 28px; line-height: 1.38">A IA que você usa no navegador ou no celular roda, lá na nuvem, em chips assim. Quando eles chegam ao PC, parte desse trabalho pode ser feita <b>dentro da empresa</b>.</div>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; line-height: 1.4; color: #6B675F">Fonte: NVIDIA Blog, “Why GPUs Are Great for AI” (4/dez/2023, consultado em 12/out/2026). Esquema ilustrativo.</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #6B675F; border-top: 1px solid #D9D4C8; padding-top: 28px">
+<img src="logo-azul" alt="Interas — Gestão em Tecnologia, 27 anos" style="height: 64px; width: auto; display: block">
+<span style="font-family: 'IBM Plex Mono', monospace">2/6</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

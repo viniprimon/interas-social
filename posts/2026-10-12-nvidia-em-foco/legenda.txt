@@ -1,0 +1,14 @@
+A IA está chegando ao computador do escritório. E isso pode mudar onde ficam os dados da sua empresa. 💻
+
+NVIDIA EM FOCO desta segunda: o que a NVIDIA anunciou na semana e o que muda para um negócio comum. Conferimos tudo hoje nas fontes oficiais (NVIDIA e Microsoft).
+
+▸ Para entender: um modelo de IA é uma quantidade enorme de contas parecidas. O chip gráfico (GPU) faz milhares delas ao mesmo tempo, e por isso a IA depende dele.
+▸ PC com IA: em 7/out começou a pré-venda dos notebooks com RTX Spark, o chip da NVIDIA para Windows. As entregas começam em 16/out e os computadores compactos chegam em novembro. Segundo a NVIDIA, eles rodam modelos de IA grandes no próprio aparelho, sem mandar dados para a nuvem. Preço ainda não divulgado nas páginas oficiais.
+▸ Agentes no Windows: no mesmo evento, a Microsoft liberou para todos os Microsoft Execution Containers, uma área isolada em que o agente de IA trabalha sob as regras do sistema.
+▸ Modelos abertos: a NVIDIA mostrou por que as operadoras de telefonia apostam em IA aberta: custo, controle sobre os dados e liberdade para escolher onde rodar.
+
+O recado para quem empreende: não precisa trocar os computadores agora, mas na próxima compra vale perguntar se a máquina roda IA localmente. E antes de liberar um agente, defina o que ele pode acessar.
+
+Na sua empresa, você deixaria a IA rodar no próprio computador ou prefere a nuvem? Conta aqui 👇
+
+#InteligenciaArtificial #IA #NVIDIA #IALocal #Tecnologia #PME #Interas

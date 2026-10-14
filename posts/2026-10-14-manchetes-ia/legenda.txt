@@ -1,0 +1,14 @@
+A IA ficou mais barata e mais fácil de checar. 🧠🔍
+
+Ouvimos os podcasts de IA de 6 a 13 de outubro e conferimos hoje cada manchete na fonte oficial. Separamos em quatro frentes:
+
+▸ Modelos: a Anthropic lançou o Claude Haiku 5.5, modelo pequeno e rápido que custa cerca de 75% menos que a versão anterior. A francesa Mistral apresentou o Mistral Large 4 e promete liberar o modelo para download até o fim do mês.
+▸ No escritório: o Claude chegou ao Google Docs, Sheets e Slides, em teste nos planos pagos, pedindo aprovação antes de cada mudança. A Dell anunciou recursos para os agentes de IA entenderem os dados da empresa, previstos para 2027.
+▸ Confiança: o Google abriu para todos, em inglês, o SynthID Detector, que lê a marca d'água invisível de imagens, vídeos e áudios feitos com a IA do Google e de parceiros. Não reconhece qualquer IA.
+▸ Segurança: a Anthropic lançou a Cyber Mission, com um programa para proteger energia, água e transporte e varredura gratuita de falhas em projetos de código aberto.
+
+O recado para quem empreende: refaça a conta do projeto de IA que parecia caro, arrume os dados antes de deixar a IA mexer nas planilhas e, diante de vídeo ou áudio suspeito, confira a origem.
+
+Qual planilha ou documento da sua empresa você deixaria a IA editar? Conta aqui 👇
+
+#InteligenciaArtificial #IA #Interas #PME #Ciberseguranca #Deepfake #Produtividade

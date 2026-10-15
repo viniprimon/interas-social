@@ -1,0 +1,15 @@
+A reunião acabou e ninguém anotou o que ficou combinado? A IA pode cuidar da ata e da lista de tarefas. 📝
+
+IA NA PRÁTICA desta quinta: como o Google Meet anota a reunião com IA e, desde esta semana, prepara o e-mail de acompanhamento. Conferimos tudo hoje nas páginas oficiais do Google e na LGPD.
+
+▸ O problema: reunião boa, combinado perdido. Sem ata, sem dono da tarefa, sem resumo para o cliente.
+▸ Como funciona: o recurso "Take notes for me" usa o Gemini, a IA do Google, para escrever as notas num documento do Google Docs, com resumo, decisões, próximos passos e detalhes.
+▸ A novidade (anunciada em 12/out): ao fim da reunião, um toque prepara o rascunho do e-mail no Gmail e manda os itens de ação para o Google Tarefas. A liberação é gradual e vale para os planos Business Standard e Plus e Enterprise Standard e Plus do Google Workspace.
+▸ Quem faz o quê: a IA anota e rascunha; conferir a ata, corrigir prazos e enviar continua com você. O próprio Google avisa que o resumo pode sair incompleto ou impreciso.
+▸ Cuidados: o Meet avisa todos os participantes, mas combine antes, escolha bem quem recebe as notas e lembre que o que se fala numa reunião pode ser dado pessoal (LGPD).
+
+Recado prático: comece por uma reunião interna e recorrente, revise a primeira ata com calma e só depois use com clientes.
+
+Qual reunião da sua semana mais precisa de ata? Conta aqui 👇
+
+#InteligenciaArtificial #IA #GoogleMeet #Produtividade #PME #Gestao #LGPD #Interas

@@ -1,0 +1,15 @@
+Firewall, filtro de e-mail e servidor de backup: os aparelhos que ficam na porta da empresa viraram alvo nesta semana. 🔐
+
+SEGURANÇA PARA EMPRESAS desta sexta: o alerta da semana e o controle que protege qualquer marca. Conferimos tudo hoje nas fontes oficiais (Palo Alto Networks, Cisco, Ahsay, CISA, NCSC e CERT.br).
+
+▸ Para entender: equipamento de borda é o aparelho entre a internet e a rede da empresa. Todo ele tem um painel de administração, a tela onde se muda a configuração.
+▸ Firewall: em 14/out, a Palo Alto Networks avisou de uma falha no painel de administração do PAN-OS, já usada em ataques. A recomendação: correção instalada e painel aberto só para endereços internos de confiança.
+▸ Filtro de e-mail: também em 14/out, a Cisco corrigiu uma falha crítica (9,8 de 10) no Secure Email Gateway, atacada com um e-mail com anexo preparado. Só a correção resolve; a versão em nuvem já foi corrigida.
+▸ Backup: em 12/out, a Ahsay liberou novas correções para o servidor de backup AhsayCBS. Em 14/out, a CISA, agência de cibersegurança dos EUA, listou essas 4 falhas como já usadas em ataques.
+▸ O controle da semana: painel de administração fechado para a internet, senha de fábrica trocada, aparelho com suporte e um responsável pelos avisos.
+
+O recado prático: liste os aparelhos da borda, confira o painel e a senha de cada um e defina quem aplica as correções.
+
+Você sabe quem cuida do firewall da sua empresa? Conta aqui 👇
+
+#InteligenciaArtificial #IA #Interas #Ciberseguranca #SegurancaDaInformacao #Firewall #PME

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Memória</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',sans-serif;color:#16181D;background:#F4F1EA}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px 88px 72px; display: flex; flex-direction: column; gap: 30px; background: #F4F1EA; color: #16181D; font-family: 'IBM Plex Sans', sans-serif">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; letter-spacing: 0.08em; color: #B4501A">05 · A MEMÓRIA DA IA</div>
+<h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 700; font-size: 70px; line-height: 1.05; letter-spacing: -0.02em">Janela de contexto: o quanto ela consegue ter na frente.</h2>
+<div style="font-size: 29px; line-height: 1.4; color: #4A4740"><b style="color: #16181D">Janela de contexto</b> é a “memória de trabalho” do modelo: tudo o que ele consegue consultar para responder, inclusive a própria resposta. Também é medida em tokens.</div>
+<div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center">
+<svg viewBox="0 0 904 250" role="img" aria-label="Esquema ilustrativo da janela de contexto: uma caixa que vai enchendo a cada rodada da conversa; na rodada 1 tem a pergunta e a resposta, na rodada 2 entra tudo de novo mais a nova pergunta, na rodada 3 a caixa fica quase cheia" style="display: block; width: 100%; height: auto">
+<text x="0" y="24" font-family="IBM Plex Mono" font-weight="500" font-size="20" fill="#6B675F">A CADA RODADA, A CONVERSA INTEIRA VOLTA</text>
+<text x="0" y="82" font-family="IBM Plex Sans" font-weight="600" font-size="24" fill="#16181D">Rodada 1</text>
+<rect x="150" y="50" width="754" height="48" rx="12" fill="#FFFFFF" stroke="#16181D" stroke-width="3"></rect><rect x="150" y="50" width="150" height="48" rx="12" fill="#E8894F"></rect>
+<text x="0" y="152" font-family="IBM Plex Sans" font-weight="600" font-size="24" fill="#16181D">Rodada 2</text>
+<rect x="150" y="120" width="754" height="48" rx="12" fill="#FFFFFF" stroke="#16181D" stroke-width="3"></rect><rect x="150" y="120" width="150" height="48" rx="12" fill="#C9C5BB"></rect><rect x="300" y="120" width="160" height="48" rx="12" fill="#E8894F"></rect>
+<text x="0" y="222" font-family="IBM Plex Sans" font-weight="600" font-size="24" fill="#16181D">Rodada 3</text>
+<rect x="150" y="190" width="754" height="48" rx="12" fill="#FFFFFF" stroke="#16181D" stroke-width="3"></rect><rect x="150" y="190" width="310" height="48" rx="12" fill="#C9C5BB"></rect><rect x="460" y="190" width="170" height="48" rx="12" fill="#E8894F"></rect>
+<text x="650" y="222" font-family="IBM Plex Sans" font-size="22" fill="#6B675F">espaço que sobra</text>
+</svg>
+</div>
+<div style="padding: 28px 36px; background: #16181D; color: #F4F1EA; border-radius: 24px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 22px; color: #E8894F">POR QUE IMPORTA</div>
+<div style="font-size: 28px; line-height: 1.38">Numa conversa longa, o histórico volta a cada rodada e conta como entrada. Conversa nova para assunto novo é mais barata e mais precisa. No Haiku 5.5, a janela é de 1 milhão de tokens.</div>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; line-height: 1.4; color: #6B675F">Fonte: Anthropic, Claude Platform Docs, “Context windows”, “Glossary” e página do Claude Haiku 5.5 (consultadas em 17/out/2026). Esquema ilustrativo.</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #6B675F; border-top: 1px solid #D9D4C8; padding-top: 28px">
+<img src="logo-azul" alt="Interas — Gestão em Tecnologia, 27 anos" style="height: 64px; width: auto; display: block">
+<span style="font-family: 'IBM Plex Mono', monospace">6/7</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

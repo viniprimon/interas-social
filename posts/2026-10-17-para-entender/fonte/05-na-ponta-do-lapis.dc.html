@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Na ponta do lápis</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',sans-serif;color:#F4F1EA;background:#16181D}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px 88px 72px; display: flex; flex-direction: column; gap: 26px; background: #16181D; color: #F4F1EA; font-family: 'IBM Plex Sans', sans-serif">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; letter-spacing: 0.08em; color: #E8894F">04 · NA PONTA DO LÁPIS</div>
+<h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 700; font-size: 76px; line-height: 1.05; letter-spacing: -0.02em">Quanto custa uma tarefa?</h2>
+<div style="font-size: 30px; line-height: 1.4; color: #DAD6CC">O exemplo é da documentação oficial: uma tarefa com 2.000 tokens de entrada e 500 de saída no Claude Haiku 5.5.</div>
+<div style="padding: 20px 36px; background: #2A2E37; border-radius: 22px">
+<div style="display: flex; justify-content: space-between; gap: 20px; padding: 18px 0; border-bottom: 1px solid #3A3E47; font-size: 30px; font-weight: 400"><span style="color: #DAD6CC">2.000 tokens de entrada</span><span style="font-family: 'IBM Plex Mono', monospace; color: #F4F1EA">US$ 0,0002</span></div>
+<div style="display: flex; justify-content: space-between; gap: 20px; padding: 18px 0; border-bottom: 1px solid #3A3E47; font-size: 30px; font-weight: 400"><span style="color: #DAD6CC">500 tokens de saída</span><span style="font-family: 'IBM Plex Mono', monospace; color: #F4F1EA">US$ 0,00025</span></div>
+<div style="display: flex; justify-content: space-between; gap: 20px; padding: 18px 0; border-bottom: 1px solid #3A3E47; font-size: 30px; font-weight: 600"><span style="color: #DAD6CC">Uma tarefa</span><span style="font-family: 'IBM Plex Mono', monospace; color: #F4F1EA">US$ 0,00045</span></div>
+<div style="display: flex; justify-content: space-between; gap: 20px; padding: 18px 0 8px; font-size: 30px; font-weight: 600"><span style="color: #E8894F">10 mil tarefas no mês</span><span style="font-family: 'IBM Plex Mono', monospace; color: #E8894F">≈ US$ 4,50</span></div>
+</div>
+<div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center; gap: 16px">
+<div style="font-size: 28px; line-height: 1.4; color: #DAD6CC"><b style="color: #F4F1EA">Em lote:</b> tarefa sem pressa, enviada em lote, sai com 50% de desconto.</div>
+<div style="font-size: 28px; line-height: 1.4; color: #DAD6CC"><b style="color: #F4F1EA">Texto repetido:</b> instruções que se repetem em todo pedido podem ficar guardadas (o “cache”) e custam 90% menos na releitura.</div>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; line-height: 1.4; color: #9A968D">Fonte: Anthropic, Claude Platform Docs, páginas do Claude Haiku 5.5 e “Pricing” (consultadas em 17/out/2026). Total de 10 mil tarefas: conta da Interas sobre o preço oficial, sem impostos e câmbio.</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #9A968D; border-top: 1px solid #3A3E47; padding-top: 28px">
+<img src="logo-claro" alt="Interas — Gestão em Tecnologia, 27 anos" style="height: 64px; width: auto; display: block; opacity: 0.92">
+<span style="font-family: 'IBM Plex Mono', monospace">5/7</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

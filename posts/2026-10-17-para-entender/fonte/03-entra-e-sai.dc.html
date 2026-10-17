@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Entra e sai</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',sans-serif;color:#F4F1EA;background:#16181D}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px 88px 72px; display: flex; flex-direction: column; gap: 30px; background: #16181D; color: #F4F1EA; font-family: 'IBM Plex Sans', sans-serif">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; letter-spacing: 0.08em; color: #E8894F">02 · ENTRA E SAI</div>
+<h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 700; font-size: 76px; line-height: 1.05; letter-spacing: -0.02em">Você paga pelo que manda e pelo que ela escreve.</h2>
+<div style="font-size: 30px; line-height: 1.4; color: #DAD6CC">Quem usa IA por consumo (a chamada <b style="color: #F4F1EA">API</b>, a ligação direta entre um sistema e a IA) paga pelos tokens de <b style="color: #F4F1EA">entrada</b> e pelos de <b style="color: #F4F1EA">saída</b>, com preços diferentes.</div>
+<div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center; gap: 14px">
+<svg viewBox="0 0 904 250" role="img" aria-label="Esquema ilustrativo: o que você envia (pergunta, documento e histórico da conversa) são os tokens de entrada; o modelo de IA processa; o que ele escreve são os tokens de saída, que custam mais caro" style="display: block; width: 100%; height: auto">
+<rect x="0" y="10" width="300" height="190" rx="22" fill="#2A2E37" stroke="#6FA3E8" stroke-width="3"></rect>
+<text x="150" y="52" text-anchor="middle" font-family="IBM Plex Mono" font-weight="500" font-size="21" fill="#6FA3E8">ENTRADA</text>
+<text x="150" y="98" text-anchor="middle" font-family="IBM Plex Sans" font-size="25" fill="#F4F1EA">sua pergunta</text>
+<text x="150" y="134" text-anchor="middle" font-family="IBM Plex Sans" font-size="25" fill="#F4F1EA">+ documentos</text>
+<text x="150" y="170" text-anchor="middle" font-family="IBM Plex Sans" font-size="25" fill="#F4F1EA">+ histórico</text>
+<path d="M310 105H352" stroke="#E8894F" stroke-width="4" fill="none" stroke-linecap="round"></path><path d="M343 96l10 9-10 9" stroke="#E8894F" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+<rect x="362" y="45" width="180" height="120" rx="22" fill="#E8894F"></rect>
+<text x="452" y="98" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="28" fill="#16181D">Modelo</text><text x="452" y="132" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="28" fill="#16181D">de IA</text>
+<path d="M552 105H594" stroke="#E8894F" stroke-width="4" fill="none" stroke-linecap="round"></path><path d="M585 96l10 9-10 9" stroke="#E8894F" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+<rect x="604" y="10" width="300" height="190" rx="22" fill="#2A2E37" stroke="#E8894F" stroke-width="3"></rect>
+<text x="754" y="52" text-anchor="middle" font-family="IBM Plex Mono" font-weight="500" font-size="21" fill="#E8894F">SAÍDA</text>
+<text x="754" y="110" text-anchor="middle" font-family="IBM Plex Sans" font-size="25" fill="#F4F1EA">a resposta</text>
+<text x="754" y="146" text-anchor="middle" font-family="IBM Plex Sans" font-size="25" fill="#F4F1EA">que ela escreve</text>
+<text x="150" y="240" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#6FA3E8">US$ 0,10</text>
+<text x="754" y="240" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#E8894F">US$ 0,50</text>
+</svg>
+<div style="font-size: 24px; line-height: 1.35; color: #9A968D; text-align: center">Preço por milhão de tokens no Claude Haiku 5.5, para pedidos de até 100 mil tokens.</div>
+</div>
+<div style="padding: 26px 36px; background: #E8894F; color: #16181D; border-radius: 22px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 22px">POR QUE IMPORTA</div>
+<div style="font-size: 29px; line-height: 1.35; font-weight: 600">Neste modelo, a saída custa 5 vezes a entrada. Pedir respostas curtas e objetivas já reduz a conta.</div>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; line-height: 1.4; color: #9A968D">Fonte: Anthropic, Claude Platform Docs, página “Pricing” (consultada em 17/out/2026). Esquema ilustrativo.</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #9A968D; border-top: 1px solid #3A3E47; padding-top: 28px">
+<img src="logo-claro" alt="Interas — Gestão em Tecnologia, 27 anos" style="height: 64px; width: auto; display: block; opacity: 0.92">
+<span style="font-family: 'IBM Plex Mono', monospace">3/7</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

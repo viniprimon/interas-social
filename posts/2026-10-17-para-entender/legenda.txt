@@ -1,0 +1,15 @@
+A IA ficou mais barata nesta semana. Mas barata em quê? 🪙
+
+PARA ENTENDER deste sábado: o token, a "moeda" em que a IA é cobrada, explicado para quem toca um negócio. Conferimos tudo hoje nas fontes oficiais (Anthropic, OpenAI e Google).
+
+▸ O que é: a IA não lê palavras, lê pedaços de texto, os tokens. Em inglês, 100 tokens dão umas 75 palavras; em português a proporção muda.
+▸ Entra e sai: quem usa IA por consumo (API) paga pelo que manda (pergunta, documentos, histórico) e pelo que ela escreve. No Claude Haiku 5.5, a saída custa 5 vezes a entrada.
+▸ O preço da semana: o Haiku 5.5, lançado em 7/out, custa 90% menos que o Haiku 4.5 em pedidos de até 100 mil tokens. Mas usa cerca de 30% mais tokens para o mesmo texto. Preço por token não é preço por tarefa.
+▸ Na ponta do lápis: no exemplo oficial, uma tarefa com 2.000 tokens de entrada e 500 de saída custa US$ 0,00045. Dez mil tarefas no mês dão cerca de US$ 4,50, sem impostos.
+▸ Memória da IA: a janela de contexto é tudo o que a IA consegue consultar para responder. Numa conversa longa, o histórico volta a cada rodada e entra na conta.
+
+O recado para quem empreende: meça o custo por tarefa, mande só o necessário e deixe o trabalho repetitivo para um modelo pequeno ou para o envio em lote.
+
+Qual tarefa da sua empresa você gostaria de saber quanto custaria com IA? Conta aqui 👇
+
+#InteligenciaArtificial #IA #ParaEntender #Tokens #CustoDeIA #PME #Interas

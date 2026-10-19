@@ -1,0 +1,15 @@
+Uma IA que lê PDF, tabela e gráfico, e que pode rodar no computador da empresa. Foi isso que a NVIDIA mostrou esta semana. 📄
+
+NVIDIA EM FOCO desta segunda: o que a NVIDIA anunciou de 13 a 15 de outubro e o que muda para um negócio comum. Conferimos tudo hoje nas fontes oficiais da NVIDIA.
+
+▸ Para entender: enquanto trabalha, o modelo de IA fica inteiro na memória da placa de vídeo (GPU). Versões comprimidas ocupam menos e passam a caber num PC.
+▸ Modelo que lê documentos: em 15/out saiu o Nemotron 3.5 Super VL, um modelo aberto (pode ser baixado) que entende imagem e texto juntos: PDFs, tabelas, gráficos e páginas da web.
+▸ IA no próprio PC: os Nemotron 3.5 Bolt foram feitos para rodar fora do data center. O maior cabe em 24 GB de memória e já roda em PCs com placa RTX; o menor, de 4 GB, chega em 23/out.
+▸ Adobe + NVIDIA: Photoshop, Premiere e Substance 3D foram ajustados para o RTX Spark, até 2x mais rápidos em tarefas de IA e edição, segundo números iniciais das empresas.
+▸ Agentes seguros: em 13/out a NVIDIA anunciou US$ 250 milhões em capacidade de computação, ao longo de 5 anos, para pesquisa sobre segurança de agentes de IA no Reino Unido.
+
+O recado para quem empreende: teste a IA com documentos sem dados de clientes, olhe a memória da placa de vídeo na próxima compra e só dê a um agente o acesso que ele precisa.
+
+Qual documento da sua empresa você deixaria uma IA ler primeiro? Conta aqui 👇
+
+#InteligenciaArtificial #IA #NVIDIA #IALocal #ModelosAbertos #PME #Interas

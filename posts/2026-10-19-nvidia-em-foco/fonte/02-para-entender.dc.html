@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Para entender</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',sans-serif;color:#16181D;background:#F4F1EA}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px 88px 72px; display: flex; flex-direction: column; gap: 30px; background: #F4F1EA; color: #16181D; font-family: 'IBM Plex Sans', sans-serif">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; letter-spacing: 0.08em; color: #B4501A">PARA ENTENDER</div>
+<h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 700; font-size: 72px; line-height: 1.05; letter-spacing: -0.02em">A IA precisa caber na memória do chip.</h2>
+<div style="font-size: 29px; line-height: 1.4; color: #4A4740">Enquanto trabalha, o modelo de IA fica inteiro na <b style="color: #16181D">memória do chip gráfico (GPU)</b>. Modelo grande pede muita memória. Por isso a NVIDIA também cria versões <b style="color: #16181D">comprimidas</b>, que guardam cada número com menos detalhe e ocupam menos espaço.</div>
+<div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center">
+<svg viewBox="0 0 904 340" role="img" aria-label="Esquema ilustrativo. Um modelo de IA grande não cabe na memória pequena de um computador e vai para o data center. Comprimido, o mesmo tipo de modelo passa a caber nos 24 GB de memória de um PC." style="display: block; width: 100%; height: auto">
+<text x="0" y="28" font-family="IBM Plex Mono" font-weight="500" font-size="22" fill="#6B675F">MODELO GRANDE</text>
+<rect x="0" y="48" width="250" height="250" rx="20" fill="#16181D"></rect>
+<text x="125" y="165" text-anchor="middle" font-family="Fraunces" font-weight="700" font-size="40" fill="#F4F1EA">bilhões</text>
+<text x="125" y="208" text-anchor="middle" font-family="IBM Plex Sans" font-size="24" fill="#DAD6CC">de números</text>
+<line x1="270" y1="173" x2="380" y2="173" stroke="#B4501A" stroke-width="5"></line>
+<polygon points="380,160 404,173 380,186" fill="#B4501A"></polygon>
+<text x="337" y="140" text-anchor="middle" font-family="IBM Plex Mono" font-weight="500" font-size="20" fill="#B4501A">comprimir</text>
+<text x="430" y="28" font-family="IBM Plex Mono" font-weight="500" font-size="22" fill="#B4501A">MESMO MODELO, COMPACTO</text>
+<rect x="430" y="98" width="150" height="150" rx="16" fill="#E8894F"></rect>
+<text x="505" y="183" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="24" fill="#16181D">menor</text>
+<rect x="630" y="78" width="270" height="190" rx="20" fill="none" stroke="#16181D" stroke-width="4" stroke-dasharray="10 8"></rect>
+<text x="765" y="160" text-anchor="middle" font-family="Fraunces" font-weight="700" font-size="44" fill="#16181D">24 GB</text>
+<text x="765" y="200" text-anchor="middle" font-family="IBM Plex Sans" font-size="22" fill="#4A4740">memória do PC</text>
+<line x1="590" y1="173" x2="620" y2="173" stroke="#16181D" stroke-width="4"></line>
+<text x="0" y="334" font-family="IBM Plex Sans" font-size="24" fill="#16181D">Grande demais: só no data center</text>
+<text x="560" y="334" font-family="IBM Plex Sans" font-size="24" fill="#16181D">Comprimido: cabe no PC</text>
+</svg>
+</div>
+<div style="padding: 28px 36px; background: #16181D; color: #F4F1EA; border-radius: 24px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 22px; color: #E8894F">POR QUE IMPORTA PARA O SEU NEGÓCIO</div>
+<div style="font-size: 28px; line-height: 1.38">É a memória do chip que decide se uma IA roda <b>no computador da empresa</b> ou só na nuvem, em data centers.</div>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; line-height: 1.4; color: #6B675F">Fontes: NVIDIA Blog, “Why GPUs Are Great for AI” (4/dez/2023) e post sobre a família Nemotron (15/out/2026), consultados em 19/out/2026. Esquema ilustrativo.</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #6B675F; border-top: 1px solid #D9D4C8; padding-top: 28px">
+<img src="logo-azul" alt="Interas — Gestão em Tecnologia, 27 anos" style="height: 64px; width: auto; display: block">
+<span style="font-family: 'IBM Plex Mono', monospace">2/7</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

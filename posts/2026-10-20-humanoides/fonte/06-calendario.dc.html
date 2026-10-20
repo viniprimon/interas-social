@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>06-calendario.dc.html</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',sans-serif;color:#16181D;background:#F4F1EA}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px 88px 72px; display: flex; flex-direction: column; gap: 30px; background: #F4F1EA; color: #16181D; font-family: 'IBM Plex Sans', sans-serif">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; letter-spacing: 0.08em; color: #B4501A">ONDE ESTÁ CADA UM</div>
+<h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 700; font-size: 72px; line-height: 1.05; letter-spacing: -0.02em">O calendário oficial, sem exagero.</h2>
+<div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center">
+<div style="display: flex; gap: 28px">
+<div style="display: flex; flex-direction: column; align-items: center; min-width: 36px">
+<div style="width: 36px; height: 36px; border-radius: 18px; background: #E8894F; border: 4px solid #16181D; box-sizing: border-box"></div>
+<div style="width: 4px; flex-grow: 1; background: #D9D4C8"></div>
+</div>
+<div style="padding-bottom: 22px; display: flex; flex-direction: column; gap: 6px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; color: #B4501A">HOJE</div>
+<div style="font-size: 28px; line-height: 1.36; color: #16181D">O Digit já opera para clientes nos EUA e no Canadá. No Japão, os robôs da UBTECH só podem entrar em teste e demonstração.</div>
+</div>
+</div>
+<div style="display: flex; gap: 28px">
+<div style="display: flex; flex-direction: column; align-items: center; min-width: 36px">
+<div style="width: 36px; height: 36px; border-radius: 18px; background: #6FA3E8; border: 4px solid #16181D; box-sizing: border-box"></div>
+<div style="width: 4px; flex-grow: 1; background: #D9D4C8"></div>
+</div>
+<div style="padding-bottom: 22px; display: flex; flex-direction: column; gap: 6px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; color: #B4501A">1º SEMESTRE DE 2027</div>
+<div style="font-size: 28px; line-height: 1.36; color: #16181D">Começa o acesso antecipado ao Digit 5, a nova versão do robô de armazém.</div>
+</div>
+</div>
+<div style="display: flex; gap: 28px">
+<div style="display: flex; flex-direction: column; align-items: center; min-width: 36px">
+<div style="width: 36px; height: 36px; border-radius: 18px; background: #FFFFFF; border: 4px solid #16181D; box-sizing: border-box"></div>
+<div style="width: 4px; flex-grow: 1; background: #D9D4C8"></div>
+</div>
+<div style="padding-bottom: 22px; display: flex; flex-direction: column; gap: 6px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; color: #B4501A">FIM DE 2027</div>
+<div style="font-size: 28px; line-height: 1.36; color: #16181D">Venda geral prevista do Digit 5 para fábricas e armazéns. Com o selo europeu (marcação CE), a empresa quer levá-lo pela primeira vez para fora da América do Norte.</div>
+</div>
+</div>
+<div style="display: flex; gap: 28px">
+<div style="display: flex; flex-direction: column; align-items: center; min-width: 36px">
+<div style="width: 36px; height: 36px; border-radius: 18px; background: #16181D; border: 4px solid #16181D; box-sizing: border-box"></div>
+
+</div>
+<div style="padding-bottom: 0px; display: flex; flex-direction: column; gap: 6px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; color: #B4501A">E O BRASIL?</div>
+<div style="font-size: 28px; line-height: 1.36; color: #16181D">Nenhum desses anúncios cita o país. Aqui, máquinas no trabalho seguem a NR-12, a norma de segurança em máquinas do Ministério do Trabalho.</div>
+</div>
+</div>
+</div>
+<div style="margin-top: auto; font-family: 'IBM Plex Mono', monospace; font-size: 20px; line-height: 1.4; color: #6B675F">Fontes: Agility Robotics (15/set/2026 e 15/out/2026); Bitcoin Japan Corporation (19/out/2026); Ministério do Trabalho e Emprego, página da NR-12 (consultada em 20/out/2026).</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #6B675F; border-top: 1px solid #D9D4C8; padding-top: 28px">
+<img src="logo-azul" alt="Interas — Gestão em Tecnologia, 27 anos" style="height: 64px; width: auto; display: block">
+<span style="font-family: 'IBM Plex Mono', monospace">6/7</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

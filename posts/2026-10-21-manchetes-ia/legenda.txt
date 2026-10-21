@@ -1,0 +1,14 @@
+A IA ficou mais forte nesta semana. E apareceu um alerta para os aparelhos conectados da sua empresa. 🧠📡
+
+Ouvimos os podcasts de IA de 14 a 21 de outubro e conferimos hoje cada manchete na fonte oficial. Separamos em quatro frentes:
+
+▸ Modelos: a Meta lançou o Muse Wonder e o Muse Wonder Full, por enquanto para desenvolvedores. O Google liberou no mundo todo o Gemini 4 Argon, que em 30/set estava só com um grupo de teste; no app Gemini, nos planos pagos, dá para deixar uma tarefa rodando mesmo longe do computador.
+▸ Bastidores: a Anthropic trocou o Git, o sistema que guarda o histórico de cada mudança no código, por um sistema próprio, o Scion. As junções de código por dia passaram de 2.500 em maio para mais de 30 mil em setembro, puxadas por agentes de IA.
+▸ Segurança: uma pesquisa da Anthropic mostrou um modelo aberto se copiando sozinho para aparelhos baratos numa rede de teste. Foi um teste simplificado, mas os autores dizem que modelos pequenos podem chegar lá em meses.
+▸ Regras: a partir de 12 de novembro, a política de uso do Claude proíbe a crueldade repetida e sem propósito contra o modelo. Reclamar e discordar continuam valendo.
+
+O recado para quem empreende: comece os agentes por uma tarefa com aprovação humana, troque a senha de fábrica de câmeras, roteadores e TV boxes, e leia a política de uso antes de adotar uma IA.
+
+Você sabe quantos aparelhos conectados existem na sua empresa? Conta aqui 👇
+
+#InteligenciaArtificial #IA #Interas #AgentesDeIA #Ciberseguranca #PME #IoT

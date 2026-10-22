@@ -1,0 +1,15 @@
+Chegou avaliação nova no Google e ninguém teve tempo de responder? A IA pode escrever o rascunho. Quem decide o que publicar continua sendo você. ⭐
+
+IA NA PRÁTICA desta quinta: como o Gemini, a IA do Google, ajuda a responder os clientes no Perfil da Empresa no Google. Conferimos tudo hoje nas páginas oficiais do Google e na LGPD.
+
+▸ O problema: avaliação sem resposta, cada pessoa respondendo de um jeito, nota baixa à vista de todos. O Google recomenda responder com gentileza, sem tom de venda, assinar com o seu nome e responder logo. O cliente recebe um aviso quando você responde.
+▸ Como funciona: com o Perfil da Empresa conectado, o Gemini lê as avaliações, resume os assuntos que mais se repetem e rascunha a resposta no tom da sua marca, citando o que o cliente escreveu. O Google confere cada resposta antes de ela aparecer.
+▸ A novidade (anunciada em 20/out): o Gemini ganhou uma página para pequenos negócios, com funções de marketing e de finanças e novos apps conectados (Perfil da Empresa, Google Ads, Workspace, Canva, Shopify e outros). Segundo o Google, a liberação começa nos próximos dias, no mundo todo.
+▸ Quem faz o quê: a IA lê, resume e rascunha; conferir o que aconteceu, decidir o que prometer e resolver o problema do cliente continua com gente.
+▸ Cuidados: precisa de conta Google pessoal ligada ao perfil (conta de trabalho não funciona) e funciona no gemini.google.com. A resposta é pública: nada de telefone ou número de pedido do cliente (LGPD). E oferecer brinde em troca de avaliação é proibido pelo Google.
+
+Recado prático: comece pedindo ao Gemini um resumo das suas avaliações. Só depois passe para os rascunhos, sempre revisando um por um.
+
+A sua empresa responde todas as avaliações do Google? Conta aqui 👇
+
+#InteligenciaArtificial #IA #Gemini #GoogleMeuNegocio #AtendimentoAoCliente #PME #LGPD #Interas

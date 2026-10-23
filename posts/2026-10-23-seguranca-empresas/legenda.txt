@@ -1,0 +1,15 @@
+O site da sua empresa pode estar rodando uma versão com falha crítica. E o ataque começou antes do aviso. 🔐
+
+SEGURANÇA PARA EMPRESAS desta sexta: o alerta da semana é para quem tem site, loja virtual ou sistema web. Conferimos tudo hoje nas fontes oficiais (PHP, NCSC, AWS e WordPress.org).
+
+▸ Para entender: o PHP é a linguagem que roda no servidor, o computador onde o site fica, e monta as páginas na hora. O WordPress, por exemplo, funciona sobre PHP.
+▸ A falha: em 21/out, o projeto PHP corrigiu duas falhas críticas (9,2 de 10) que deixam um invasor, sem login, fazer o servidor rodar comandos dele. O NCSC, centro de cibersegurança do Reino Unido, diz que toda instalação que entrega páginas na internet é afetada.
+▸ Linha do tempo: os servidores-armadilha da Amazon registraram a primeira tentativa de ataque em 17/out, quatro dias antes do anúncio. O recado: em falha crítica exposta à internet, o prazo se mede em horas.
+▸ Versões corrigidas: 8.5.12, 8.4.27, 8.3.36 e 8.2.35. Na 8.1 ou mais antiga, o projeto PHP não lança mais correção, e a 8.2 perde o suporte em 31/dez/2026.
+▸ Quem cuida: hospedagem, agência ou a sua TI. No WordPress, a versão aparece em Ferramentas › Saúde do site › Informação › Servidor.
+
+O recado prático: liste os sites da empresa, peça hoje por escrito a versão do PHP de cada um e, se não der para atualizar logo, peça uma verificação de sinais de invasão.
+
+Você sabe quem atualiza o servidor do site da sua empresa? Conta aqui 👇
+
+#InteligenciaArtificial #IA #Interas #Ciberseguranca #SegurancaDaInformacao #PHP #WordPress #PME

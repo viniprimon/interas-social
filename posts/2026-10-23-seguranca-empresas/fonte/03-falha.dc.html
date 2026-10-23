@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>A falha</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',sans-serif;color:#F4F1EA;background:#16181D}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px 88px 72px; display: flex; flex-direction: column; gap: 28px; background: #16181D; color: #F4F1EA; font-family: 'IBM Plex Sans', sans-serif">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; letter-spacing: 0.08em; color: #E8894F">02 · A FALHA · 21/OUT</div>
+<h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 700; font-size: 72px; line-height: 1.05; letter-spacing: -0.02em">Duas falhas críticas, sem precisar de senha.</h2>
+<div style="font-size: 29px; line-height: 1.4; color: #DAD6CC">Em 21/out, o projeto PHP lançou correções para duas falhas que permitem <b style="color: #F4F1EA">execução remota de código</b>: um invasor, de fora e sem login, faz o servidor do site rodar comandos dele.</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; flex-grow: 1; align-content: center">
+<div style="padding: 28px 32px; background: #2A2E37; border-radius: 24px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 21px; color: #E8894F">GRAVIDADE</div>
+<div style="font-size: 27px; line-height: 1.35; color: #DAD6CC">Nota <b style="color: #F4F1EA">9,2 de 10</b> nas duas. É a escala usada no mundo todo para medir a gravidade de uma falha.</div>
+</div>
+<div style="padding: 28px 32px; background: #2A2E37; border-radius: 24px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 21px; color: #6FA3E8">QUEM É AFETADO</div>
+<div style="font-size: 27px; line-height: 1.35; color: #DAD6CC">Toda instalação de PHP que <b style="color: #F4F1EA">entrega páginas na internet</b>, em qualquer versão, segundo o NCSC.</div>
+</div>
+</div>
+<div style="padding: 28px 36px; background: #E8894F; color: #16181D; border-radius: 22px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 22px">O QUE DIZ O PRÓPRIO PHP</div>
+<div style="font-size: 29px; line-height: 1.35; font-weight: 600">“Não há atenuação completa: atualizar é a única escolha segura.”</div>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; line-height: 1.4; color: #9A968D">Fontes: php.net, aviso de segurança CVE-2026-109618 e CVE-2026-109619, 21/out/2026; NCSC (Reino Unido), “Critical security issue affecting PHP”, 21/out/2026</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #9A968D; border-top: 1px solid #3A3E47; padding-top: 28px">
+<img src="logo-claro" alt="Interas — Gestão em Tecnologia, 27 anos" style="height: 64px; width: auto; display: block; opacity: 0.92">
+<span style="font-family: 'IBM Plex Mono', monospace">3/7</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

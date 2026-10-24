@@ -1,0 +1,15 @@
+"Modelo aberto", "pesos abertos", "código aberto"... Afinal, o que quer dizer uma IA aberta? E isso serve para a sua empresa? 🔓
+
+PARA ENTENDER deste sábado: o conceito que apareceu em vários anúncios de outubro, explicado para quem toca um negócio. Conferimos tudo hoje nas fontes oficiais (Open Source Initiative, Meta, NVIDIA, Mistral, Anthropic e Hugging Face).
+
+▸ O que é: um modelo de IA é um arquivo com bilhões de números, os pesos, ajustados no treino. É ali que fica o que a IA aprendeu.
+▸ Aberto x fechado: no fechado, você usa pelo app ou pela API e os pesos ficam com o fornecedor (ex.: Muse Wonder, da Meta, 12/out). No aberto, os pesos são publicados para baixar e rodar onde você escolher (ex.: Muse Spark Open, da Meta, 15/out).
+▸ "Aberto" tem graus: a NVIDIA abriu pesos, dados e receitas de treino do Nemotron 3.5 Super VL (15/out); a Meta abriu os pesos do Muse Spark Open com licença de termos comerciais limitados; a Mistral lançou o Large 4 em prévia pela API e prometeu os pesos até o fim de outubro.
+▸ A licença: pesos abertos não são código aberto. Para a Open Source Initiative, IA de código aberto traz pesos, código e informações sobre os dados de treino, e deixa usar, estudar, modificar e compartilhar para qualquer fim.
+▸ Os cuidados: você ganha controle sobre onde a IA roda, mas servidor, atualização e segurança passam a ser seus. Quem baixa pode remover travas de segurança, e alguns arquivos de modelo podem rodar programas escondidos.
+
+O recado para quem empreende: antes de baixar uma IA, pergunte se precisa mesmo, se a licença deixa usar no negócio e quem vai cuidar dela.
+
+Na sua empresa, a IA rodaria na nuvem ou dentro de casa? Por quê? Conta aqui 👇
+
+#InteligenciaArtificial #IA #ParaEntender #ModelosAbertos #CodigoAberto #PME #Interas

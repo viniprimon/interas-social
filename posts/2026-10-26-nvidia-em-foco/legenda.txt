@@ -1,0 +1,14 @@
+Agente de IA que conhece os seus clientes e pedidos, e que tem freio. Foi esse o recado da NVIDIA nesta semana. 🛡️
+
+NVIDIA EM FOCO desta segunda: o que a NVIDIA anunciou na GTC Berlin, em 21 de outubro, e o que muda para um negócio comum. Conferimos tudo hoje nas fontes oficiais da NVIDIA.
+
+▸ Para entender: quando a sua equipe usa IA pela internet, a resposta é calculada num data center cheio de chips gráficos (GPUs). A NVIDIA chama esse lugar de "fábrica de IA". A novidade é o DSX POD, uma fábrica de IA que chega pronta em contêineres: num local preparado, a instalação cai de 6 meses para até 14 dias. Entregas no início de 2027.
+▸ Dados da empresa: o Agent Toolkit, kit aberto da NVIDIA para criar agentes (a IA que executa tarefas), ganhou o Agent Knowledge Foundation, que traduz os dados da empresa em clientes, produtos e pedidos, sem precisar mover os dados de lugar.
+▸ Agente com freio: o OpenShell roda o agente numa área isolada, com regras do que ele pode fazer. Se ele sai do limite, é parado em milissegundos, segundo a NVIDIA. CrowdStrike, Fortinet, Okta, Palo Alto Networks e Microsoft estão integrando o suporte.
+▸ IA no escritório: nova versão do DGX Spark com 64 GB (nos parceiros desde 23/out), o DGX Station agora integrado a 7 ferramentas de gestão de TI, como o Microsoft Intune, e a versão com Windows prevista para dezembro.
+
+O recado para quem empreende: arrume o cadastro antes de pensar em agente, pergunte ao fornecedor o que o agente acessa e como desligar, e coloque a máquina de IA no controle da TI.
+
+Que tarefa da sua empresa você deixaria um agente fazer, com freio? Conta aqui 👇
+
+#InteligenciaArtificial #IA #NVIDIA #AgentesDeIA #Ciberseguranca #PME #Interas

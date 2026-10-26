@@ -1,0 +1,14 @@
+Agente de IA com os dados da empresa, e com freio. 🛡️
+
+Em 1 minuto, o que a NVIDIA anunciou na GTC Berlin (21/out) e o que muda para quem toca um negócio:
+▸ Para entender: a IA que você usa roda numa "fábrica de IA", cheia de chips gráficos. O DSX POD monta uma em até 14 dias.
+▸ Agentes que entendem cliente, produto e pedido
+▸ OpenShell: uma cerca entre o agente e os sistemas da empresa
+▸ Computadores de IA que a TI consegue gerenciar
+▸ 3 passos práticos
+
+O carrossel no perfil traz os detalhes, com as fontes oficiais.
+
+Que tarefa você deixaria um agente fazer, com freio? Conta nos comentários 👇
+
+#InteligenciaArtificial #IA #NVIDIA #AgentesDeIA #PME #Interas

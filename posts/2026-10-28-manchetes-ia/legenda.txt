@@ -1,0 +1,14 @@
+A IA começou a trabalhar sem você pedir. E outras novidades que importam para quem toca um negócio. 🤖📈
+
+Ouvimos os podcasts de IA de 21 a 28 de outubro e conferimos hoje cada manchete na fonte oficial. Separamos em quatro frentes:
+
+▸ Agentes: a Anthropic lançou o Claude Duet, um assistente que se antecipa. Ele monta um resumo da manhã, cuida de tarefas no e-mail e na agenda e pede sua aprovação antes de enviar, pagar, assinar ou apagar. Por enquanto, é uma prévia com lista de espera para os planos Pro e Max nos EUA.
+▸ Modelos: a OpenAI lançou o GPT-6.1 Terra, feito para entender a tela, usar apps e escrever; na API, custa US$ 1 por milhão de tokens de entrada (o token é um pedaço de texto). O Google apresentou o Genie 4, que cria mundos virtuais com som a partir de um texto, por ora só com testadores.
+▸ Segurança: a Anthropic usou o Claude para provar matematicamente que 123 bibliotecas de código aberto não travam, num cenário restrito. No caminho, achou e corrigiu centenas de falhas.
+▸ Mercado: a Anthropic entregou à SEC, nos EUA, o pedido para abrir capital na Nasdaq. Quantidade de ações e preço ainda não foram definidos. Não é recomendação de investimento.
+
+O recado para quem empreende: prefira agentes que pedem aprovação antes de agir, refaça a conta das automações que pareciam caras e pergunte ao seu fornecedor de software como ele procura falhas no código.
+
+Que tarefa você deixaria um assistente fazer sem você pedir? Conta aqui 👇
+
+#InteligenciaArtificial #IA #Interas #AgentesDeIA #Ciberseguranca #PME #Tecnologia

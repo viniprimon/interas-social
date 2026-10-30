@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Para entender</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',sans-serif;color:#16181D;background:#F4F1EA}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px 88px 72px; display: flex; flex-direction: column; gap: 28px; background: #F4F1EA; color: #16181D; font-family: 'IBM Plex Sans', sans-serif">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; letter-spacing: 0.08em; color: #B4501A">01 · PARA ENTENDER</div>
+<h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 700; font-size: 76px; line-height: 1.05; letter-spacing: -0.02em">Por que a IA às vezes inventa.</h2>
+<div style="font-size: 28px; line-height: 1.4; color: #4A4740">O modelo de IA aprendeu a <b style="color: #16181D">prever a próxima palavra</b>. Sem saber um fato, tende a chutar algo que soa certo: é a <b style="color: #16181D">alucinação</b>. A saída é a IA <b style="color: #16181D">consultar fontes antes de responder</b> (os técnicos chamam de RAG).</div>
+<div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center">
+<svg viewBox="0 0 904 400" role="img" aria-label="Esquema ilustrativo: sem consulta, a pergunta vai direto ao modelo de IA, que completa com uma resposta que soa certa e pode ser inventada; com consulta, a IA primeiro busca em fontes, responde com base no que achou e mostra a fonte" style="display: block; width: 100%; height: auto">
+<text x="0" y="30" font-family="IBM Plex Mono" font-weight="500" font-size="22" fill="#6B675F">SEM CONSULTA</text>
+<rect x="0" y="48" width="190" height="104" rx="20" fill="#FFFFFF" stroke="#16181D" stroke-width="4"></rect>
+<text x="95" y="110" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="27" fill="#16181D">Pergunta</text>
+<path d="M200 100H262" stroke="#16181D" stroke-width="6" stroke-linecap="round"></path>
+<path d="M248 86L264 100L248 114" stroke="#16181D" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+<rect x="274" y="48" width="230" height="104" rx="20" fill="#16181D"></rect>
+<text x="389" y="93" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#F4F1EA">Modelo de IA</text>
+<text x="389" y="127" text-anchor="middle" font-family="IBM Plex Sans" font-size="21" fill="#C9C5BB">completa o texto</text>
+<path d="M514 100H576" stroke="#16181D" stroke-width="6" stroke-linecap="round"></path>
+<path d="M562 86L578 100L562 114" stroke="#16181D" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+<rect x="588" y="48" width="316" height="104" rx="20" fill="#FFFFFF" stroke="#B4501A" stroke-width="4" stroke-dasharray="12 8"></rect>
+<text x="746" y="93" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="25" fill="#B4501A">Resposta que soa certa</text>
+<text x="746" y="127" text-anchor="middle" font-family="IBM Plex Sans" font-size="21" fill="#6B675F">e pode ser inventada</text>
+<text x="0" y="234" font-family="IBM Plex Mono" font-weight="500" font-size="22" fill="#6B675F">COM CONSULTA A FONTES</text>
+<rect x="0" y="252" width="160" height="124" rx="20" fill="#FFFFFF" stroke="#16181D" stroke-width="4"></rect>
+<text x="80" y="322" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="27" fill="#16181D">Pergunta</text>
+<path d="M168 314H210" stroke="#16181D" stroke-width="6" stroke-linecap="round"></path>
+<path d="M196 300L212 314L196 328" stroke="#16181D" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+<rect x="220" y="252" width="200" height="124" rx="20" fill="#E8894F"></rect>
+<text x="320" y="302" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#16181D">1. Busca</text>
+<text x="320" y="338" text-anchor="middle" font-family="IBM Plex Sans" font-size="21" fill="#16181D">site, documento,</text>
+<text x="320" y="362" text-anchor="middle" font-family="IBM Plex Sans" font-size="21" fill="#16181D">planilha</text>
+<path d="M428 314H470" stroke="#16181D" stroke-width="6" stroke-linecap="round"></path>
+<path d="M456 300L472 314L456 328" stroke="#16181D" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+<rect x="480" y="252" width="200" height="124" rx="20" fill="#16181D"></rect>
+<text x="580" y="302" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#F4F1EA">2. Responde</text>
+<text x="580" y="338" text-anchor="middle" font-family="IBM Plex Sans" font-size="21" fill="#C9C5BB">com base no</text>
+<text x="580" y="362" text-anchor="middle" font-family="IBM Plex Sans" font-size="21" fill="#C9C5BB">que achou</text>
+<path d="M688 314H730" stroke="#16181D" stroke-width="6" stroke-linecap="round"></path>
+<path d="M716 300L732 314L716 328" stroke="#16181D" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+<rect x="740" y="252" width="164" height="124" rx="20" fill="#FFFFFF" stroke="#16181D" stroke-width="4"></rect>
+<text x="822" y="302" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="25" fill="#16181D">3. Mostra</text>
+<text x="822" y="338" text-anchor="middle" font-family="IBM Plex Sans" font-size="21" fill="#6B675F">a fonte</text>
+</svg>
+</div>
+<div style="padding: 28px 36px; background: #16181D; color: #F4F1EA; border-radius: 24px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 22px; color: #E8894F">POR QUE IMPORTA</div>
+<div style="font-size: 27px; line-height: 1.4">Com a fonte na tela, você confere. Consultar <b>reduz</b> o erro, mas não zera: fonte ruim, resposta ruim.</div>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; line-height: 1.4; color: #6B675F">Fontes: OpenAI, “Why language models hallucinate”, 5/set/2025; NVIDIA Blog, “What Is Retrieval-Augmented Generation”, atualizado em 31/jan/2025; Google Cloud, página sobre RAG; consultados em 30/out/2026. Esquema ilustrativo.</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #6B675F; border-top: 1px solid #D9D4C8; padding-top: 28px">
+<img src="logo-azul" alt="Interas — Gestão em Tecnologia, 27 anos" style="height: 64px; width: auto; display: block">
+<span style="font-family: 'IBM Plex Mono', monospace">2/10</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

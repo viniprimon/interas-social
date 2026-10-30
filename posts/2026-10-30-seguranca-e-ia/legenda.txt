@@ -1,0 +1,16 @@
+Se um ataque apagar os arquivos da sua empresa hoje, o backup volta inteiro? 🔐
+
+SEGURANÇA E IA NA PRÁTICA desta sexta: o cuidado de segurança da semana e um uso de IA para pequena empresa. Conferimos tudo hoje nas fontes oficiais (CISA, CERT.br, Veeam, Google, OpenAI, NVIDIA e ANPD).
+
+▸ Para entender: a IA às vezes inventa porque aprendeu a prever a próxima palavra e, sem saber um fato, chuta algo que soa certo. É a alucinação. Quando a IA consulta fontes antes de responder (o tal RAG), o erro cai e você consegue conferir. Cai, mas não zera.
+▸ Segurança, o alvo: no ransomware, o sequestro de dados, o criminoso também vai atrás do backup. A CISA e o CERT.br alertam que muitos ataques tentam apagar ou criptografar as cópias de segurança ao alcance.
+▸ Segurança, a correção: em 27/out, a Veeam lançou a versão 13.1.2.57 do Backup & Replication, com correção para uma falha crítica (nota 9,1 de 10) que deixa alguém sem login passar por cima das permissões de um serviço do programa. A Veeam não informou ataques.
+▸ Controle da semana: uma cópia desconectada e criptografada, duas cópias em lugares diferentes e teste de recuperação de tempos em tempos.
+▸ IA na prática: no Google Planilhas, o Preencher com o Gemini completa uma coluna inteira a partir de um pedido (classificar comentários de clientes, descrever produtos, buscar dados de fornecedores). A novidade, anunciada em 28/out: quando busca na internet, mostra as fontes usadas em cada célula. Planos Business Standard e Plus, com liberação gradual.
+▸ Cuidados: a IA pode errar, só vê as células que você aponta, e nome, telefone e CPF são dados pessoais pela LGPD. Deixe de fora o que ela não precisa ver.
+
+O recado para quem empreende: pergunte hoje se existe cópia desconectada do backup, marque um teste de recuperação e comece a IA por uma coluna, conferindo a fonte antes de usar.
+
+Quando foi a última vez que sua empresa testou o backup? Conta aqui 👇
+
+#InteligenciaArtificial #IA #Ciberseguranca #Backup #Ransomware #GoogleWorkspace #PME #Interas

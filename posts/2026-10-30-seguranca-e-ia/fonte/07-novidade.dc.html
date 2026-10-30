@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>A novidade</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',sans-serif;color:#F4F1EA;background:#16181D}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px 88px 72px; display: flex; flex-direction: column; gap: 28px; background: #16181D; color: #F4F1EA; font-family: 'IBM Plex Sans', sans-serif">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; letter-spacing: 0.08em; color: #E8894F">06 · IA NA PRÁTICA · 28/OUT</div>
+<h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 700; font-size: 70px; line-height: 1.05; letter-spacing: -0.02em">A novidade: cada célula mostra de onde veio.</h2>
+<div style="font-size: 28px; line-height: 1.4; color: #DAD6CC">Quando o Gemini busca a resposta na internet, agora mostra <b style="color: #F4F1EA">as fontes usadas em cada célula</b> (no Planilhas pelo navegador), para você conferir. É a “consulta a fontes” da lâmina 2, dentro da planilha.</div>
+<div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center">
+<svg viewBox="0 0 904 230" role="img" aria-label="Esquema ilustrativo: uma célula preenchida pela IA com um botão Fontes que abre a lista de sites usados para aquela resposta" style="display: block; width: 100%; height: auto">
+<rect x="0" y="20" width="520" height="96" rx="18" fill="#2A2E37" stroke="#6FA3E8" stroke-width="4"></rect>
+<text x="28" y="62" font-family="IBM Plex Mono" font-weight="500" font-size="20" fill="#6FA3E8">C2 · CIDADE DO FORNECEDOR</text>
+<text x="28" y="98" font-family="IBM Plex Sans" font-weight="600" font-size="27" fill="#F4F1EA">Joinville (SC)</text>
+<rect x="380" y="58" width="120" height="44" rx="22" fill="#E8894F"></rect>
+<text x="440" y="88" text-anchor="middle" font-family="IBM Plex Mono" font-weight="500" font-size="21" fill="#16181D">FONTES</text>
+<path d="M500 80C560 80 560 150 610 150" stroke="#E8894F" stroke-width="5" fill="none" stroke-linecap="round"></path>
+<rect x="610" y="96" width="294" height="124" rx="18" fill="#F4F1EA"></rect>
+<text x="634" y="138" font-family="IBM Plex Mono" font-weight="500" font-size="19" fill="#B4501A">USADAS NESTA CÉLULA</text>
+<text x="634" y="172" font-family="IBM Plex Sans" font-size="22" fill="#16181D">site do fornecedor</text>
+<text x="634" y="202" font-family="IBM Plex Sans" font-size="22" fill="#16181D">página de contato</text>
+</svg>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px">
+<div style="padding: 26px 32px; background: #2A2E37; border-radius: 24px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 21px; color: #E8894F">MAIS RÁPIDO</div>
+<div style="font-size: 26px; line-height: 1.35; color: #DAD6CC">Até <b style="color: #F4F1EA">3.000 células</b> por pedido, com resposta mais rápida, segundo o Google.</div>
+</div>
+<div style="padding: 26px 32px; background: #2A2E37; border-radius: 24px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 21px; color: #6FA3E8">QUEM TEM</div>
+<div style="font-size: 26px; line-height: 1.35; color: #DAD6CC">Planos <b style="color: #F4F1EA">Business Standard e Plus</b> do Workspace e Google AI Pro e Ultra. Liberação gradual desde 20/out.</div>
+</div>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; line-height: 1.4; color: #9A968D">Fonte: Google Workspace Updates, “Fill with Gemini now provides cell-level citations for web sources and supports larger requests” (28/out/2026), consultado em 30/out/2026. Esquema ilustrativo.</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #9A968D; border-top: 1px solid #3A3E47; padding-top: 28px">
+<img src="logo-claro" alt="Interas — Gestão em Tecnologia, 27 anos" style="height: 64px; width: auto; display: block; opacity: 0.92">
+<span style="font-family: 'IBM Plex Mono', monospace">7/10</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

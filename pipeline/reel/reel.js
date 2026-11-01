@@ -68,7 +68,7 @@
   /* Checagens: área segura (o Instagram cobre o topo e o rodapé) e tempo de leitura. */
   window.reelCheck = () => {
     const out = [];
-    const SAFE_TOP = 200, SAFE_BOTTOM = 1920 - 380, SAFE_LEFT = 60, SAFE_RIGHT = 1080 - 60;
+    const SAFE_TOP = 370, SAFE_BOTTOM = 1920 - 380, SAFE_LEFT = 60, SAFE_RIGHT = 1080 - 60;
     // Palavras por segundo que dá para ler: 5 no editorial; no Domingo Seguro use <body data-max-wps="4">.
     const MAX_WPS = parseFloat(document.body.dataset.maxWps || '5');
     for (const s of plan) {

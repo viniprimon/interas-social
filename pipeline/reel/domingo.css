@@ -3,16 +3,16 @@
 *{box-sizing:border-box}
 body{margin:0;width:1080px;height:1920px;overflow:hidden;background:var(--paper);color:var(--navy);font-family:'Atkinson Hyperlegible',sans-serif}
 
-/* Cenas. A área útil vai de 220 px a 1520 px: o Instagram cobre o topo e o rodapé. */
-.scene{position:absolute;inset:0;padding:240px 84px 410px;display:flex;flex-direction:column;gap:34px;justify-content:center;opacity:0;background:var(--paper);color:var(--navy)}
+/* Cenas. O Instagram cobre o topo (até ~220 px) e o rodapé (abaixo de 1520 px): o cabeçalho fica em 250-350 px e o conteúdo vai de 370 px a 1520 px. */
+.scene{position:absolute;inset:0;padding:380px 84px 410px;display:flex;flex-direction:column;gap:34px;justify-content:center;opacity:0;background:var(--paper);color:var(--navy)}
 .scene[data-tone="accent"]{background:var(--yellow)}
 .scene[data-tone="dark"]{background:var(--navy);color:#fff}
 
 /* Cabeçalho fixo: logo, selo da série e barra de progresso. */
-.top{position:absolute;z-index:99;left:84px;right:84px;top:96px;display:flex;justify-content:space-between;align-items:center}
+.top{position:absolute;z-index:99;left:84px;right:84px;top:250px;display:flex;justify-content:space-between;align-items:center}
 .top img{height:66px;display:none}
 .top .tag{padding:12px 26px;background:var(--navy);color:var(--yellow);border-radius:40px;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:24px;letter-spacing:.06em}
-.progress{position:absolute;z-index:99;left:84px;right:84px;top:194px;height:6px;background:rgba(19,38,92,.18);border-radius:3px}
+.progress{position:absolute;z-index:99;left:84px;right:84px;top:344px;height:6px;background:rgba(19,38,92,.18);border-radius:3px}
 .progress div{height:6px;width:0;background:var(--navy);border-radius:3px}
 body[data-tone="light"] .top .l-azul,body[data-tone="accent"] .top .l-azul{display:block}
 body[data-tone="dark"] .top .l-claro{display:block}

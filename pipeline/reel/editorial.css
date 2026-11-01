@@ -3,16 +3,16 @@
 *{box-sizing:border-box}
 body{margin:0;width:1080px;height:1920px;overflow:hidden;background:var(--ink);color:var(--cream);font-family:'IBM Plex Sans',sans-serif}
 
-/* Cenas. A área útil vai de 220 px a 1520 px: o Instagram cobre o topo e o rodapé. */
-.scene{position:absolute;inset:0;padding:230px 90px 410px;display:flex;flex-direction:column;gap:34px;justify-content:center;opacity:0;background:var(--ink);color:var(--cream)}
+/* Cenas. O Instagram cobre o topo (até ~220 px) e o rodapé (abaixo de 1520 px): o cabeçalho fica em 250-350 px e o conteúdo vai de 370 px a 1520 px. */
+.scene{position:absolute;inset:0;padding:380px 90px 410px;display:flex;flex-direction:column;gap:34px;justify-content:center;opacity:0;background:var(--ink);color:var(--cream)}
 .scene[data-tone="accent"]{background:var(--orange);color:var(--ink)}
 .scene[data-tone="light"]{background:var(--cream);color:var(--ink)}
 
 /* Cabeçalho fixo: logo, etiqueta e barra de progresso. */
-.top{position:absolute;z-index:99;left:90px;right:90px;top:100px;display:flex;justify-content:space-between;align-items:center}
+.top{position:absolute;z-index:99;left:90px;right:90px;top:250px;display:flex;justify-content:space-between;align-items:center}
 .top img{height:68px;display:none}
 .top .tag{font-family:'IBM Plex Mono',monospace;font-size:26px;color:var(--dim)}
-.progress{position:absolute;z-index:99;left:90px;right:90px;top:192px;height:5px;background:var(--line);border-radius:3px}
+.progress{position:absolute;z-index:99;left:90px;right:90px;top:344px;height:5px;background:var(--line);border-radius:3px}
 .progress div{height:5px;width:0;background:var(--orange);border-radius:3px}
 body[data-tone="dark"] .top .l-claro{display:block}
 body[data-tone="light"] .top .l-azul{display:block}

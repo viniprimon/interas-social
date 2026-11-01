@@ -19,7 +19,7 @@ O repositório é público porque o Metricool só aceita imagens com link públi
 
 ## Posts diários (grade da semana)
 
-Um post por dia, cada dia com uma série: segunda NVIDIA EM FOCO, terça HUMANOIDES, quarta manchetes de IA, quinta IA NA PRÁTICA, sexta SEGURANÇA PARA EMPRESAS, sábado PARA ENTENDER, domingo Domingo Seguro. A grade completa, as fontes oficiais de cada série, as ideias de reserva e o histórico ficam em `pipeline/pauta-diaria.md`.
+Por causa do limite do Metricool (plano gratuito, 20 publicações por mês), são 4 publicações por semana, cada uma com UMA peça só: domingo REEL (Domingo Seguro), segunda CARROSSEL (NVIDIA EM FOCO), quarta REEL (Manchetes de IA + Humanoides), sexta CARROSSEL (Segurança para empresas + IA na prática). Terça, quinta e sábado sem publicação. Toda publicação tem uma parte PARA ENTENDER (lâmina ou cena) que explica para leigo o conceito central, sem repetir conceito já explicado. A grade completa, as fontes oficiais de cada série, as ideias de reserva e o histórico ficam em `pipeline/pauta-diaria.md`.
 
 - **Pesquisa no dia da postagem.** A apuração é feita no mesmo dia em que o post vai ao ar, para não publicar notícia defasada. Vale também para as manchetes de quarta: os podcasts servem para descobrir os assuntos, e cada manchete é confirmada na fonte oficial na manhã da quarta.
 - **Só fonte oficial.** O fato só entra se foi confirmado no site, blog, sala de imprensa ou documentação da empresa ou do órgão responsável. Imprensa serve para descobrir a notícia.
@@ -48,9 +48,9 @@ node pipeline/render.js posts/<pasta>/fonte posts/<pasta>
 
 O script sai com código 2 e marca `OVERFLOW` se algum texto passar do quadro.
 
-## Reels (regra: todo post tem um Reel, publicado no mesmo horário)
+## Reels (domingo e quarta)
 
-Cada carrossel sai acompanhado de um Reel vertical (1080×1920) com o mesmo conteúdo, agendado para o **mesmo dia e a mesma hora**.
+No domingo e na quarta a publicação é só o Reel vertical (1080×1920), sem carrossel: o vídeo e a legenda precisam se bastar.
 
 - Modelos: `pipeline/modelo-reel/editorial/reel.html` (semana) e `pipeline/modelo-reel/domingo/reel.html` (Domingo Seguro).
 - Motor e estilos: `pipeline/reel/reel.js`, `pipeline/reel/editorial.css`, `pipeline/reel/domingo.css`. Não copie esses arquivos: o reel aponta para eles.
@@ -64,7 +64,7 @@ Como escrever as cenas:
 - Público leigo: cada cena precisa de uma frase que **explique** o assunto (o que é, por que importa), não só o título. Sempre que um termo técnico aparecer, explique na mesma cena.
 - Use imagem real quando houver uma de licença livre (com crédito na cena); senão, desenhe um esquema simples em SVG. Nunca apresente ilustração como resultado real.
 - Só entra no Reel o que foi checado para o carrossel.
-- Nada de texto na faixa de cima (220 px) nem na de baixo (400 px): o Instagram cobre essas áreas.
+- O Instagram cobre o topo (até ~220 px) e o rodapé (abaixo de 1520 px). O cabeçalho fixo (logo, selo e barra de progresso) fica entre 250 e 350 px, e o conteúdo das cenas entre 370 e 1520 px; o `render-reel.js` acusa `CORTE` fora disso.
 
 Gerar o vídeo:
 
@@ -90,7 +90,9 @@ Use sempre o link **com o hash do commit** (`git rev-parse HEAD` depois do push)
 
 ## Agendar no Metricool (blogId 7103869, Instagram)
 
-Dois agendamentos com a **mesma data e hora**:
+Um agendamento por dia de publicação:
 
-1. Carrossel: `instagramData.type = "POST"`, `media` = as lâminas na ordem.
-2. Reel: `instagramData.type = "REEL"`, `showReelOnFeed = true`, `media` = o `.mp4`, `videoThumbnailUrl` = a capa `.jpg`. A legenda do Reel é própria (`legenda-reel.txt`): explica o assunto em linguagem simples e aponta para o carrossel.
+- Segunda e sexta, carrossel: `instagramData.type = "POST"`, `media` = as lâminas na ordem.
+- Domingo e quarta, Reel: `instagramData.type = "REEL"`, `showReelOnFeed = true`, `media` = o `.mp4`, `videoThumbnailUrl` = a capa `.jpg`, legenda em `legenda-reel.txt`.
+
+Antes de agendar, confira o limite do mês: post com status ERROR e "account limit" quer dizer que acabou; nesse caso a peça fica pronta para publicação manual.

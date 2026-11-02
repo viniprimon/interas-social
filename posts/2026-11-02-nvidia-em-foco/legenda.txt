@@ -1,0 +1,15 @@
+Quando um agente de IA demora, nem sempre a culpa é da IA. 🧠⚙️
+
+NVIDIA EM FOCO desta segunda: o que a NVIDIA anunciou de 26 a 30 de outubro e o que muda para um negócio comum. Conferimos tudo hoje nas fontes oficiais.
+
+▸ Para entender: a GPU roda o modelo de IA, que decide o próximo passo. Quem executa é o processador (CPU): usa a ferramenta, roda o código, busca o dado. Cada passo espera o anterior; se a execução atrasa, a GPU, a peça mais cara, fica parada.
+▸ Processador na nuvem: em 27/out, a Oracle liberou na sua nuvem a Vera, CPU da NVIDIA feita para agentes, e o sistema Vera Rubin NVL72, com as novas GPUs. São 150 mil processadores na implantação inicial, em regiões selecionadas neste trimestre. Preço não divulgado.
+▸ Meta e NVIDIA: em 26/out, ampliaram a parceria em torno do Muse, a família de modelos da Meta, para melhorar o desempenho e o custo total. Usar mais Vera Rubin e avaliar o OpenShell ainda são intenções, sem data.
+▸ Segurança: em 29/out, a NVIDIA contou um estudo com a Eclypsium. Com o sistema já comprometido, o modelo de IA agiu diferente na memória, e a verificação do arquivo continuou aprovando. A saída proposta é confiar com prova, de olho também no firmware, o software gravado dentro do aparelho.
+▸ Agente em campo: em 30/out, a NVIDIA mostrou agentes ajudando a operar o telescópio Allen, do Instituto SETI, a partir de um único pedido em linguagem comum. É pesquisa, mas mostra o valor de uma única fonte da verdade.
+
+O recado para quem empreende: veja o sistema que o agente consulta antes de trocar a IA, peça o custo por tarefa concluída e pergunte ao fornecedor como o código da IA fica isolado.
+
+Na sua empresa, o que mais atrasaria um agente: a IA ou os sistemas que ela precisa consultar? Conta aqui 👇
+
+#InteligenciaArtificial #IA #NVIDIA #AgentesDeIA #Ciberseguranca #PME #Interas

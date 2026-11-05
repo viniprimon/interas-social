@@ -1,0 +1,16 @@
+A IA campeã do ranking ainda não é para você. 🤖
+
+Em 80 segundos, as manchetes de IA e os robôs humanoides da semana, explicados para quem toca um negócio. Descobrimos os assuntos nos podcasts e conferimos tudo hoje nas fontes oficiais.
+
+▸ Para entender: benchmark é a prova que ranqueia as IAs. Todas fazem as mesmas tarefas e ganham uma nota. A Artificial Analysis, dona de um desses rankings, avisa que a nota pode não valer para todo uso (consulta em 4/nov).
+▸ Modelos: em 28/out, o Google apresentou o Gemini 4 Carbon, seu modelo mais forte, focado em segurança digital e tarefas longas. Lidera a Artificial Analysis com 60 pontos, contra 59 do Claude Opus 5.5, mas por enquanto só equipes de defesa digital têm acesso. Para empresas, sem data. Fonte: Google.
+▸ Modelo aberto: em 29/out, a Mistral liberou os pesos do Large 4, como prometido. Pesos são o arquivo do modelo, para baixar. O uso comercial é liberado, e revender como serviço exige licença à parte. Os exemplos oficiais usam de 4 a 8 GPUs, placas de IA de data center. Fonte: Mistral AI.
+▸ Confiança: em 2/nov, a Anthropic mostrou o FlashProve, que gera uma prova matemática de que a resposta veio do modelo prometido. É protótipo de pesquisa, custa de 70 a 95 vezes o processamento normal e foi testado em textos curtos. Fonte: Anthropic.
+▸ Humanoides, operação real: o Digit moveu mais de 100 mil caixas num armazém da GXO, nos EUA, em contrato comercial (Agility Robotics, 26/out). Mais dois armazéns só no início de 2027, ou seja, ainda é plano. Em 2/nov, acionistas aprovaram a fusão que leva a Agility à bolsa, com negociação prevista para 5/nov. Não é recomendação de investimento.
+▸ Humanoides, proposta: em 29/out, a chinesa AGIBOT propôs o Worken, uma conta do trabalho útil do robô (robôs em ação, horas sem ajuda humana e rendimento na tarefa). Ainda não há resultados publicados.
+
+O recado para quem empreende: teste a IA com uma tarefa sua, não só pelo ranking; pergunte qual modelo o fornecedor usa; e, em robô, peça horas de trabalho útil, não vídeo.
+
+Qual tarefa seria a prova da sua empresa? Conta aqui 👇
+
+#InteligenciaArtificial #IA #Humanoides #Robotica #Benchmark #PME #Interas

@@ -1,0 +1,15 @@
+Você sabe dizer quem tem login no site da sua empresa? 🔐
+
+SEGURANÇA E IA NA PRÁTICA desta sexta: o alerta de segurança da semana e um uso de IA para pequena empresa. Conferimos tudo hoje nas fontes oficiais (WordPress.org, Centro Canadense de Segurança Cibernética, NCSC, Google, NVIDIA e ANPD).
+
+▸ Para entender: treinar a IA é a escola, quando o modelo vê muitos dados e ajusta seus pesos. Usar é o trabalho, que os técnicos chamam de inferência: o modelo aplica o que aprendeu e, nessa etapa, não aprende nada novo. O risco é o que você digita ir para um próximo treino, e isso depende do plano. No Google Workspace, só com sua permissão. Na conta pessoal do Gemini, pode acontecer com a atividade ligada.
+▸ Segurança, o alerta: em 28/out, o WordPress, sistema em que muitos sites são feitos, lançou a versão 7.1.4 com 22 correções. A mais séria abre uma janela durante a atualização em que alguém pode rodar comandos no servidor. Em 3/nov, a CISA, agência de segurança dos EUA, colocou a falha na lista das já exploradas.
+▸ Controle da semana: acesso mínimo. A maioria das 22 falhas exige uma conta com login de Colaborador para cima. Tire quem saiu, dê o menor papel que resolva e ligue a verificação em duas etapas.
+▸ IA na prática: desde 5/nov, o Google anuncia que o Gemini analisa as respostas do Google Formulários, aponta tendências e sugere próximos passos. Para contar, ele escreve e roda um pequeno programa, em vez de estimar. Vale para Business Standard e Plus, Enterprise Standard e Plus e planos pessoais do Google AI listados pelo Google, com liberação gradual.
+▸ Cuidados: recurso em Beta, com mínimo de 12 respostas e 3 perguntas. Pode errar. Nome, CPF, endereço e e-mail são dados pessoais pela LGPD. E quem edita o formulário pode acessar a planilha de respostas: ao tirar alguém, tire dos dois lugares.
+
+O recado para quem empreende: confirme hoje se o site está na versão corrigida, faça a lista de quem tem login e, na próxima pesquisa, peça só o necessário e confira os números da IA antes de decidir.
+
+Quem tem a senha do site da sua empresa hoje? Conta aqui 👇
+
+#InteligenciaArtificial #IA #Ciberseguranca #WordPress #GoogleWorkspace #Gemini #PME #Interas

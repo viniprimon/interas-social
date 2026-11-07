@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Para entender</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',sans-serif;color:#16181D;background:#F4F1EA}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px 88px 72px; display: flex; flex-direction: column; gap: 22px; background: #F4F1EA; color: #16181D; font-family: 'IBM Plex Sans', sans-serif">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; letter-spacing: 0.08em; color: #B4501A">01 · PARA ENTENDER</div>
+<h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 700; font-size: 76px; line-height: 1.05; letter-spacing: -0.02em">Digitar ensina a IA?</h2>
+<div style="font-size: 28px; line-height: 1.4; color: #4A4740"><b style="color: #16181D">Treinar</b> é a escola: o modelo vê muitos dados e ajusta seus <b style="color: #16181D">pesos</b>, os números que guardam o que aprendeu. <b style="color: #16181D">Usar</b> é o trabalho: ele aplica isso ao seu pedido. Os técnicos chamam o uso de <b style="color: #16181D">inferência</b>.</div>
+<div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center">
+<svg viewBox="-3 0 910 380" role="img" aria-label="Esquema ilustrativo: no treino, muitos dados ajustam os pesos e geram um modelo pronto, ao longo de horas a semanas; no uso, o seu pedido passa pelo modelo pronto e sai a resposta, sem que o modelo aprenda algo novo" style="display: block; width: 100%; height: auto">
+<text x="0" y="30" font-family="IBM Plex Mono" font-weight="500" font-size="22" fill="#6B675F">TREINO: A ESCOLA</text>
+<rect x="0" y="48" width="250" height="120" rx="20" fill="#FFFFFF" stroke="#16181D" stroke-width="4"></rect><text x="125.0" y="102.0" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#16181D">Muitos dados</text><text x="125.0" y="136.0" text-anchor="middle" font-family="IBM Plex Sans" font-size="21" fill="#6B675F">textos, imagens</text>
+<path d="M262 108H298" stroke="#16181D" stroke-width="6" stroke-linecap="round"></path><path d="M286 95L300 108L286 121" stroke="#16181D" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+<rect x="312" y="48" width="280" height="120" rx="20" fill="#E8894F"></rect><text x="452.0" y="102.0" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#16181D">Ajusta os pesos</text><text x="452.0" y="136.0" text-anchor="middle" font-family="IBM Plex Sans" font-size="21" fill="#16181D">de horas a semanas</text>
+<path d="M604 108H640" stroke="#16181D" stroke-width="6" stroke-linecap="round"></path><path d="M628 95L642 108L628 121" stroke="#16181D" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+<rect x="654" y="48" width="250" height="120" rx="20" fill="#16181D"></rect><text x="779.0" y="102.0" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#F4F1EA">Modelo pronto</text><text x="779.0" y="136.0" text-anchor="middle" font-family="IBM Plex Sans" font-size="21" fill="#C9C5BB">pesos fixos</text>
+<text x="0" y="234" font-family="IBM Plex Mono" font-weight="500" font-size="22" fill="#6B675F">USO (INFERÊNCIA): O TRABALHO</text>
+<rect x="0" y="252" width="250" height="120" rx="20" fill="#FFFFFF" stroke="#16181D" stroke-width="4"></rect><text x="125.0" y="306.0" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#16181D">Seu pedido</text><text x="125.0" y="340.0" text-anchor="middle" font-family="IBM Plex Sans" font-size="21" fill="#6B675F">dado novo</text>
+<path d="M262 312H298" stroke="#16181D" stroke-width="6" stroke-linecap="round"></path><path d="M286 299L300 312L286 325" stroke="#16181D" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+<rect x="312" y="252" width="280" height="120" rx="20" fill="#16181D"></rect><text x="452.0" y="306.0" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#F4F1EA">Modelo pronto</text><text x="452.0" y="340.0" text-anchor="middle" font-family="IBM Plex Sans" font-size="21" fill="#C9C5BB">aplica o que aprendeu</text>
+<path d="M604 312H640" stroke="#16181D" stroke-width="6" stroke-linecap="round"></path><path d="M628 299L642 312L628 325" stroke="#16181D" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+<rect x="654" y="252" width="250" height="120" rx="20" fill="#FFFFFF" stroke="#16181D" stroke-width="4"></rect><text x="779.0" y="306.0" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#16181D">Resposta</text><text x="779.0" y="340.0" text-anchor="middle" font-family="IBM Plex Sans" font-size="21" fill="#6B675F">não aprende nada novo</text>
+</svg>
+</div>
+<div style="padding: 24px 34px; background: #16181D; color: #F4F1EA; border-radius: 24px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 22px; color: #E8894F">POR QUE IMPORTA</div>
+<div style="font-size: 26px; line-height: 1.38">O risco é o que você digita ir para um <b>próximo treino</b>. Depende do plano: no Google Workspace, só com sua permissão; na conta pessoal do Gemini, pode, com a atividade ligada.</div>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; line-height: 1.4; color: #6B675F">Fontes: NVIDIA Blog, treino x inferência (atualizado em out/2025); Google Cloud, “What is AI inference?” (15/out/2026); Privacy Hubs do Workspace (6/out/2026) e do Gemini (26/out/2026); consultados em 6/nov/2026. Esquema ilustrativo.</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #6B675F; border-top: 1px solid #D9D4C8; padding-top: 28px">
+<img src="logo-azul" alt="Interas — Gestão em Tecnologia, 27 anos" style="height: 64px; width: auto; display: block">
+<span style="font-family: 'IBM Plex Mono', monospace">2/9</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

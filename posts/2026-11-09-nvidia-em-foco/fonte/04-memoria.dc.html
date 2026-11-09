@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Memória</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',sans-serif;color:#16181D;background:#F4F1EA}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px 88px 72px; display: flex; flex-direction: column; gap: 24px; background: #F4F1EA; color: #16181D; font-family: 'IBM Plex Sans', sans-serif">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; letter-spacing: 0.08em; color: #B4501A">02 · MEMÓRIA</div>
+<h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 700; line-height: 1.05; letter-spacing: -0.02em; font-size: 58px">Mais memória não basta: conta quanto cada byte trabalha.</h2>
+<div style="font-size: 28px; line-height: 1.4; color: #4A4740">A memória mais rápida da GPU (a <b style="color: #16181D">HBM</b>) é cara e limitada. Em 5/nov, a NVIDIA explicou por que só aumentá-la não resolve: a capacidade só entrega o que a velocidade de transferência consegue mover.</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px">
+<div style="padding: 28px 28px; background: #FFFFFF; border: 3px solid #D9D4C8; border-top: 8px solid #B4501A; border-radius: 22px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'Fraunces', serif; font-weight: 700; font-size: 72px; line-height: 1; color: #B4501A; white-space: nowrap">+3%</div>
+<div style="font-size: 25px; line-height: 1.32; color: #16181D">de memória HBM por GPU, do sistema GB300 NVL72 para o Vera Rubin NVL72</div>
+</div>
+<div style="padding: 28px 28px; background: #FFFFFF; border: 3px solid #D9D4C8; border-top: 8px solid #B4501A; border-radius: 22px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'Fraunces', serif; font-weight: 700; font-size: 72px; line-height: 1; color: #B4501A; white-space: nowrap">até 30x</div>
+<div style="font-size: 25px; line-height: 1.32; color: #16181D">mais trabalho de agente por dólar no mesmo salto, num teste da SemiAnalysis citado pela NVIDIA</div>
+</div>
+</div>
+<div style="font-size: 27px; line-height: 1.4; color: #4A4740">O truque: deixar na memória rápida só o que está em uso. A conversa parada vai para a memória do processador ou para o armazenamento e volta quando precisa.</div>
+<div style="flex-grow: 1"></div>
+<div style="padding: 28px 36px; background: #16181D; color: #F4F1EA; border-radius: 24px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 22px; color: #E8894F">POR QUE IMPORTA PARA O SEU NEGÓCIO</div>
+<div style="font-size: 28px; line-height: 1.38">O custo por resposta da IA cai mais pelo projeto do sistema inteiro do que por um chip novo. Vale rever o preço dos serviços de IA de tempos em tempos.</div>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; line-height: 1.4; color: #6B675F">Fonte: NVIDIA Blog, “More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge” (5/nov/2026), consultado em 9/nov/2026. Números da NVIDIA.</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #6B675F; border-top: 1px solid #D9D4C8; padding-top: 28px">
+<img src="logo-azul" alt="Interas — Gestão em Tecnologia, 27 anos" style="height: 64px; width: auto; display: block;">
+<span style="font-family: 'IBM Plex Mono', monospace">4/6</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

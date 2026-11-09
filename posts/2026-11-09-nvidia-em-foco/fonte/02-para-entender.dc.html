@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Para entender</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',sans-serif;color:#16181D;background:#F4F1EA}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px 88px 72px; display: flex; flex-direction: column; gap: 24px; background: #F4F1EA; color: #16181D; font-family: 'IBM Plex Sans', sans-serif">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; letter-spacing: 0.08em; color: #B4501A">PARA ENTENDER</div>
+<h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 700; line-height: 1.05; letter-spacing: -0.02em; font-size: 60px">O chip não trabalha sozinho: um software organiza a fila.</h2>
+<div style="font-size: 28px; line-height: 1.4; color: #4A4740">Modelo de IA grande não cabe numa GPU só: ele é dividido entre várias. Um <b style="color: #16181D">software de distribuição</b>, como o <b style="color: #16181D">Dynamo</b>, de código aberto da NVIDIA, decide para qual GPU vai cada pedido.</div>
+<div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center"><svg viewBox="0 0 904 360" role="img" aria-label="Esquema ilustrativo: os pedidos dos usuários chegam a um software organizador, que manda cada pedido para uma de quatro GPUs. Ele envia o pedido para a GPU que já tem a conversa guardada, para não refazer o trabalho." style="display: block; width: 100%; height: auto">
+<text x="80" y="40" text-anchor="middle" font-family="IBM Plex Mono" font-weight="500" font-size="22" fill="#B4501A">PEDIDOS</text>
+<rect x="10" y="70" width="140" height="62" rx="14" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="3"></rect>
+<text x="80" y="110" text-anchor="middle" font-family="IBM Plex Sans" font-size="24" fill="#16181D">cliente A</text>
+<rect x="10" y="150" width="140" height="62" rx="14" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="3"></rect>
+<text x="80" y="190" text-anchor="middle" font-family="IBM Plex Sans" font-size="24" fill="#16181D">cliente B</text>
+<rect x="10" y="230" width="140" height="62" rx="14" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="3"></rect>
+<text x="80" y="270" text-anchor="middle" font-family="IBM Plex Sans" font-size="24" fill="#16181D">cliente C</text>
+<line x1="162" y1="181" x2="226" y2="181" stroke="#B4501A" stroke-width="6"></line>
+<polygon points="224,167 248,181 224,195" fill="#B4501A"></polygon>
+<rect x="258" y="60" width="330" height="242" rx="24" fill="#16181D"></rect>
+<text x="423" y="112" text-anchor="middle" font-family="IBM Plex Mono" font-weight="500" font-size="23" fill="#E8894F">SOFTWARE</text>
+<text x="423" y="168" text-anchor="middle" font-family="Fraunces" font-weight="700" font-size="44" fill="#F4F1EA">organiza</text>
+<text x="423" y="222" text-anchor="middle" font-family="IBM Plex Sans" font-size="24" fill="#DAD6CC">escolhe a GPU certa</text>
+<text x="423" y="258" text-anchor="middle" font-family="IBM Plex Sans" font-size="24" fill="#DAD6CC">e reaproveita a conversa</text>
+<line x1="598" y1="181" x2="632" y2="181" stroke="#16181D" stroke-width="6"></line>
+<polygon points="630,167 654,181 630,195" fill="#16181D"></polygon>
+<rect x="666" y="20" width="238" height="66" rx="14" fill="#FFFFFF" stroke="#B4501A" stroke-width="4"></rect>
+<text x="785" y="62" text-anchor="middle" font-family="IBM Plex Mono" font-weight="500" font-size="22" fill="#16181D">GPU 1 · já leu A</text>
+<rect x="666" y="104" width="238" height="66" rx="14" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="3"></rect>
+<text x="785" y="146" text-anchor="middle" font-family="IBM Plex Mono" font-weight="500" font-size="22" fill="#16181D">GPU 2</text>
+<rect x="666" y="188" width="238" height="66" rx="14" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="3"></rect>
+<text x="785" y="230" text-anchor="middle" font-family="IBM Plex Mono" font-weight="500" font-size="22" fill="#16181D">GPU 3</text>
+<rect x="666" y="272" width="238" height="66" rx="14" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="3"></rect>
+<text x="785" y="314" text-anchor="middle" font-family="IBM Plex Mono" font-weight="500" font-size="22" fill="#16181D">GPU 4</text>
+</svg></div>
+<div style="font-size: 27px; line-height: 1.4; color: #4A4740">A parte da conversa que a IA já leu fica guardada (o <b style="color: #16181D">cache</b>). Mandar o pedido para a GPU que já tem esse cache evita refazer trabalho.</div>
+<div style="padding: 28px 36px; background: #16181D; color: #F4F1EA; border-radius: 24px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 22px; color: #E8894F">POR QUE IMPORTA PARA O SEU NEGÓCIO</div>
+<div style="font-size: 28px; line-height: 1.38">Com o mesmo chip, quem organiza melhor o trabalho entrega mais respostas pelo mesmo custo. É aí que o preço da IA também é decidido.</div>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; line-height: 1.4; color: #6B675F">Fonte: NVIDIA Developer, página do Dynamo (atualizada em 6/abr/2026), consultada em 9/nov/2026. Esquema ilustrativo.</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #6B675F; border-top: 1px solid #D9D4C8; padding-top: 28px">
+<img src="logo-azul" alt="Interas — Gestão em Tecnologia, 27 anos" style="height: 64px; width: auto; display: block;">
+<span style="font-family: 'IBM Plex Mono', monospace">2/6</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

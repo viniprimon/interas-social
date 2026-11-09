@@ -1,0 +1,14 @@
+Mesmo chip, mais respostas. Quem decide é o software. ⚙️
+
+NVIDIA EM FOCO desta segunda: o que a NVIDIA anunciou de 5 a 8 de novembro e o que muda para um negócio comum. Conferimos tudo hoje nas fontes oficiais.
+
+▸ Para entender: modelo de IA grande não cabe numa GPU só e é dividido entre várias. Um software de distribuição, como o Dynamo, de código aberto da NVIDIA, decide para qual GPU vai cada pedido e reaproveita a parte da conversa que a IA já leu (o cache), para não refazer trabalho.
+▸ Receitas prontas: em 8/nov, a NVIDIA liberou configurações prontas do Dynamo para colocar no ar quatro modelos abertos da Coreia do Sul (SK Telecom, LG AI Research, Upstage e Motif Technologies), com até 2x de desempenho já na instalação em GPUs B200, segundo a NVIDIA.
+▸ Memória: em 5/nov, a NVIDIA explicou por que só aumentar a memória rápida da GPU (HBM) não resolve. Do GB300 NVL72 para o Vera Rubin NVL72, a HBM por GPU subiu cerca de 3%, e o trabalho de agente por dólar, até 30x, num teste da SemiAnalysis citado pela NVIDIA. O truque é deixar na memória rápida só o que está em uso.
+▸ Agentes seguros (atualização do post de 26/out): em 8/nov, a coreana AIM Intelligence começou a integrar seu sistema Starfort ao OpenShell da NVIDIA, juntando limite de acesso com detecção de instrução maliciosa e vazamento de dados. A Hyundai está avaliando o OpenShell.
+
+O recado para quem empreende: compare serviços de IA pelo custo por resposta e reveja a conta de tempos em tempos, pergunte onde fica guardada a conversa e exija duas travas em agente ligado aos sistemas da empresa.
+
+Você sabe quanto custa cada resposta da IA que a sua empresa usa hoje? Conta aqui 👇
+
+#InteligenciaArtificial #IA #NVIDIA #AgentesDeIA #ModelosAbertos #PME #Interas

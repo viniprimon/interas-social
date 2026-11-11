@@ -1,0 +1,16 @@
+Três IAs novas na semana. Todas entram pela mesma porta. 🚪
+
+Em 80 segundos, as manchetes de IA e os robôs humanoides da semana, explicados para quem toca um negócio. Descobrimos os assuntos nos podcasts e conferimos tudo hoje nas fontes oficiais.
+
+▸ Para entender: API é a porta para um programa pedir algo a outro. Como o botão "pagar" do site: ele pede, a empresa de pagamento confirma. Pela API, a sua empresa usa a IA dentro dos próprios sistemas e paga pelo uso (fonte: IBM, "What is an API?", atualizada em 28/set).
+▸ Modelos: em 9/nov, a Anthropic lançou o Claude Fable 5.2 e o Claude Mythos 5.2, o mesmo modelo em duas versões. O Fable é para todos, com travas de segurança mais fortes; o Mythos tem menos travas e fica só com organizações verificadas. São para trabalho técnico pesado: no dia a dia, a própria Anthropic indica começar pelo Claude Opus 5.5. Na API, US$ 8 por milhão de tokens enviados e US$ 40 por milhão recebidos. Fonte: Anthropic.
+▸ Atualização: em 4/nov contamos que o Gemini 4 Carbon só estava com equipes de defesa digital. Em 10/nov, o Google abriu o modelo pela API para desenvolvedores e empresas pagantes; no app Gemini, só no plano Google AI Ultra. Preço promocional até 30/nov (US$ 2 e US$ 10 por milhão de tokens); depois, dobra. Fonte: Google.
+▸ Vídeo: em 5/nov, o Google lançou o Gemini Omni 1.2 Flash, que cria e edita vídeos de até 15 segundos a partir de fotos de produto. Sem custo extra no Google Vids, e também no Google Ads e na API. Cada vídeo leva uma marca d'água invisível que indica que foi feito por IA. Fonte: Google.
+▸ Humanoides, teste: em 10/nov, o Google DeepMind mostrou o robô Apollo 2, da Apptronik, montando kits de peças em linhas ativas da Mercedes-Benz na Hungria e na Alemanha, com 96% de acerto nas coletas. É prova de conceito, não operação contratada.
+▸ Humanoides, laboratório: o cérebro do robô é o Gemini Robotics 2.5, que transforma o que o robô vê em movimento. Em testes da própria empresa, foram mais de 200 tarefas, com execução de 20% a 30% mais rápida. Por ora, só para parceiros, sem data para venda. Fonte: Google DeepMind.
+
+O recado para quem empreende: comece pelo modelo do dia a dia, não pelo mais forte; pergunte ao fornecedor qual API ele usa e quanto custa cada tarefa; e, em vídeo feito por IA, revise antes de publicar e avise o cliente.
+
+Que sistema da sua empresa você ligaria a uma IA? Conta aqui 👇
+
+#InteligenciaArtificial #IA #Humanoides #Claude #Gemini #API #PME #Interas

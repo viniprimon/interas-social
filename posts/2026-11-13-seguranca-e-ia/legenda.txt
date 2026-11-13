@@ -1,0 +1,16 @@
+Seu e-mail tem uma falha já usada por atacantes e uma IA nova para resumir as conversas. 📧
+
+SEGURANÇA E IA NA PRÁTICA desta sexta, com tudo conferido hoje nas fontes oficiais.
+
+▸ Para entender: prompt é o pedido que você escreve para a IA. O guia do Google sugere 4 partes: quem a IA deve ser, a tarefa, o contexto e o formato. Pedido melhor, menos tempo corrigindo.
+▸ Alerta da semana: em 10/nov, a Microsoft corrigiu uma falha no Outlook (CVE-2026-124194) que já estava sendo usada por atacantes. Um arquivo de mensagem preparado faz o Outlook se conectar a um servidor do atacante sem o aviso de sempre, e a credencial do usuário (a prova de login) pode vazar. Fonte: JPCERT/CC, 11/nov.
+▸ Controle da semana, Office em dia: o pacote de 10/nov traz falhas críticas no Word, no Excel, no PowerPoint e no Outlook, e também no Exchange Server e no Active Directory, para quem tem servidor próprio. No Windows: Arquivo > Conta > Opções de Atualização > Atualizar Agora. Só aparece "Sobre"? Quem atualiza é a TI.
+▸ IA na prática: desde 10/nov, o Google libera para todas as contas do Google Workspace o resumo de conversas longas ("Resumir este e-mail") e o "Me ajude a escrever", que monta o rascunho a partir de um pedido curto. Os dois funcionam em português; a liberação pode levar até 15 dias.
+▸ Quem faz o quê: a IA lê, resume e escreve a primeira versão. Preço, prazo, reclamação delicada e o clique em enviar continuam com gente.
+▸ Cuidados: a IA pode errar, então revise tudo. Segundo o Google, o conteúdo do Workspace não treina a IA; na conta pessoal as regras são outras, e lá o "Me ajude a escrever" só existe nos EUA. E resumo não é antivírus: anexo inesperado, confirme por outro canal.
+
+O recado para quem empreende: atualize o Office hoje, desconfie de anexo que você não esperava e teste a IA do Gmail com pedido completo, deixando a decisão com uma pessoa.
+
+Qual e-mail você mais gostaria que a IA resumisse na sua empresa? Conta aqui 👇
+
+#InteligenciaArtificial #IA #Ciberseguranca #Outlook #Gmail #PME #Interas

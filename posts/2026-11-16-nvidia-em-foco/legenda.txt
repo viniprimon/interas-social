@@ -1,0 +1,14 @@
+Nem toda IA mora na nuvem. Às vezes ela fica dentro da máquina. 🏭
+
+NVIDIA EM FOCO desta segunda: o que a NVIDIA mostrou de 9 a 13 de novembro e o que muda para um negócio comum. Conferimos tudo hoje nas fontes oficiais.
+
+▸ Para entender: a IA na ponta (edge AI) roda no próprio aparelho, como uma câmera, um robô ou o computador da fábrica, perto de onde o dado nasce. Responde na hora, o dado bruto fica no local e funciona até sem internet. Para isso a NVIDIA também faz chips pequenos, os módulos Jetson.
+▸ Reciclagem: em 10/nov, a NVIDIA mostrou startups que usam visão computacional (a IA que reconhece objetos em imagens) para separar recicláveis direto na esteira. A Greyparrot, do Reino Unido, diz que conferir 15 toneladas de resíduo caiu de 375 horas para 6; a AIRECO, de Taiwan, passa de 95% de acerto na linha de teste. Números das empresas.
+▸ Saúde: em 13/nov, a NVIDIA mostrou o Synapsis AI, da Dyania Health, que lê o prontuário inteiro e aponta quem precisa de atenção, mostrando de onde tirou cada sinal. Roda nos servidores do próprio hospital, e o médico toma cada decisão. Na Cleveland Clinic, foi usado num estudo com mais de 7.800 pacientes de cirurgia de válvula do coração.
+▸ Agentes (atualização dos posts de 26/out e 9/nov): em 10/nov, a NVIDIA doou o OpenShell, o software que limita o que um agente de IA pode fazer, à CNCF, fundação sem fins lucrativos ligada à Linux Foundation. Google e NVIDIA também vão integrá-lo ao Agent Substrate, projeto aberto do Google para agentes.
+
+O recado para quem empreende: em tarefa de olhar e conferir, pergunte se a IA pode rodar no local; com dado sensível, exija que cada resposta mostre a origem e que a decisão fique com uma pessoa; e, em agentes, prefira padrão aberto.
+
+Que tarefa de conferir ou separar uma câmera com IA ajudaria na sua empresa? Conta aqui 👇
+
+#InteligenciaArtificial #IA #NVIDIA #EdgeAI #VisaoComputacional #AgentesDeIA #PME #Interas

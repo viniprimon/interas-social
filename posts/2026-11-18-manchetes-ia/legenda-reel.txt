@@ -1,0 +1,16 @@
+IA rápida ou IA que pensa? Agora dá para escolher. 🧠⚡
+
+Em 80 segundos, as manchetes de IA e os robôs humanoides da semana, explicados para quem toca um negócio. Descobrimos os assuntos nos podcasts e conferimos tudo hoje nas fontes oficiais.
+
+▸ Para entender: algumas IAs "pensam" antes de responder, fazendo um rascunho interno do raciocínio. Dá para escolher o nível: baixo é rápido e barato; alto acerta mais em tarefa difícil, mas demora e custa mais, porque o raciocínio também é cobrado (fonte: Google AI for Developers, "Gemini thinking", atualizada em 14/out).
+▸ Modelos: em 12/nov, o Google lançou o Gemini 4 Hydrogen, seu modelo rápido e barato para o dia a dia. Já está na Busca do Google para todos e no app Gemini (no plano grátis, quando o app escolhe o modelo sozinho). Segundo o Google, termina as tarefas 2,5 vezes mais rápido que o Gemini 3.8 Flash. Fonte: Google.
+▸ China: em 16/nov, a Alibaba lançou o Qwen4-Max, o modelo mais forte da família Qwen, na nuvem QwenCloud e pela API (a porta para ligar a IA aos sistemas). No teste da própria Alibaba, custa cerca de 60% menos por tarefa que o anterior. Versões menores e abertas vêm "em breve", sem data. Fonte: Alibaba Cloud.
+▸ Reuniões: em 12/nov, a Anthropic lançou em beta o Claude Meetings, nos planos Team e Enterprise. O Claude entra na chamada do Google Meet como participante visível, avisa no chat e faz as notas e as tarefas. Guarda transcrição e resumo, não o áudio, e a Anthropic pede que todos concordem antes. Fonte: Anthropic.
+▸ Humanoides, operação em expansão: em 17/nov, a chinesa ROBOTERA anunciou seus robôs triando encomendas em 11 centrais dos Correios da China, em 8 cidades da província de Guangdong. Começou como teste em março; a empresa fala em mais de 1.500 pacotes por hora e não informa quantos robôs são.
+▸ Humanoides, promessa: em 17/nov, a GlobalFoundries, fabricante de chips, ampliou o uso do Spot, robô de quatro patas da Boston Dynamics: só em Singapura, dois deles fizeram mais de 90 mil inspeções desde abril. Já o humanoide Atlas só começa a ser testado nas fábricas no início de 2027.
+
+O recado para quem empreende: tarefa simples pede IA rápida e barata, e tarefa difícil, mais raciocínio; se levar IA para a reunião, avise e peça o ok de todos; e, em robô, pergunte o que já opera, não o vídeo.
+
+Que tarefa da sua empresa pede uma IA que pensa mais? Conta aqui 👇
+
+#InteligenciaArtificial #IA #Humanoides #Gemini #Claude #Robotica #PME #Interas

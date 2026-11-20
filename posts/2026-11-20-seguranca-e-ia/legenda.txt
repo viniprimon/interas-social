@@ -1,0 +1,16 @@
+Tem Java escondido no sistema da sua empresa? E já dá para criar automação sem saber programar. ☕⚙️
+
+SEGURANÇA E IA NA PRÁTICA desta sexta, com tudo conferido hoje nas fontes oficiais.
+
+▸ Para entender: Java é uma linguagem de programação e uma plataforma. O programa roda sobre um "motor", a máquina virtual Java (JVM), que faz o mesmo programa funcionar no Windows, no Linux ou no Mac. Segundo a Oracle, esse motor vem embutido em servidores e em outros produtos, por isso muita empresa usa Java sem saber.
+▸ Alerta da semana: em 17/nov, a Oracle publicou as correções de novembro. No Java, a falha mais grave (CVE-2026-114938) tem nota 8,1 de 10, chega pela rede sem pedir senha e, se o ataque der certo, dá o controle do Java. É difícil de explorar, mas no mesmo dia a CISA, agência de cibersegurança dos EUA, pediu correção imediata.
+▸ Controle da semana, inventário de software: liste servidores, sistemas comprados, site e programas; pergunte a cada fornecedor se usa Java e quando chega a correção; atualize e anote a data. O próximo pacote da Oracle está marcado para 15/dez.
+▸ IA na prática: desde 12/nov, o Google libera o Gemini no Apps Script, a ferramenta de automação do Google Workspace. Você descreve a tarefa em palavras e o Gemini escreve o script, a lista de instruções que o computador executa sozinho. Um exemplo: montar a proposta no Google Docs a partir da planilha de orçamento. Para os planos Business Standard e Plus, Enterprise Standard e Plus e Google AI Pro e Ultra, com liberação em até 15 dias.
+▸ Quem faz o quê: a IA escreve o script, agenda a automação e sugere correção de erro. Escolher a tarefa, aceitar cada bloco, conferir preço e prazo e enviar ao cliente continuam com gente.
+▸ Cuidados: o script age com as suas permissões. Leia a tela de autorização e libere só o que a tarefa precisa, teste numa cópia e mantenha dados de clientes só com quem precisa.
+
+O recado para quem empreende: pergunte hoje aos fornecedores sobre o Java, mantenha a lista de programas em dia e teste automação com IA numa cópia, autorizando só o necessário.
+
+Que tarefa repetitiva da sua empresa você automatizaria primeiro? Conta aqui 👇
+
+#InteligenciaArtificial #IA #Ciberseguranca #Java #GoogleWorkspace #Automacao #PME #Interas

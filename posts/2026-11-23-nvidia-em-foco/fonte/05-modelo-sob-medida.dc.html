@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Modelo sob medida</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',sans-serif;color:#F4F1EA;background:#16181D}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px 88px 72px; display: flex; flex-direction: column; gap: 22px; background: #16181D; color: #F4F1EA; font-family: 'IBM Plex Sans', sans-serif">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; letter-spacing: 0.08em; color: #E8894F">03 · MODELO SOB MEDIDA</div>
+<h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 700; line-height: 1.05; letter-spacing: -0.02em; font-size: 60px">Ajustado ao assunto, o modelo aberto encara o gigante.</h2>
+<div style="font-size: 27px; line-height: 1.4; color: #DAD6CC">Em 16/nov, a NVIDIA lançou o <b style='color: #F4F1EA'>Nemotron for Science</b>: o modelo aberto Nemotron 3.5 Super VL, uma base aberta com quase 50 mil perguntas de química e receitas de <b style='color: #F4F1EA'>pós-treino</b>, um ajuste extra do modelo com exemplos de um assunto.</div>
+<div><svg viewBox="0 0 904 150" role="img" aria-label="Esquema ilustrativo: modelo aberto de uso geral, mais exemplos de um assunto, resulta em um modelo especializado." style="display: block; width: 100%; height: auto">
+<rect x="0" y="20" width="250" height="110" rx="18" fill="#2A2E37" stroke="#6FA3E8" stroke-width="3"></rect>
+<text x="125" y="68" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#F4F1EA">modelo aberto</text>
+<text x="125" y="102" text-anchor="middle" font-family="IBM Plex Sans" font-size="22" fill="#C9C5BB">de uso geral</text>
+<text x="290" y="90" text-anchor="middle" font-family="Fraunces" font-weight="700" font-size="48" fill="#E8894F">+</text>
+<rect x="330" y="20" width="250" height="110" rx="18" fill="#2A2E37" stroke="#F4F1EA" stroke-width="3"></rect>
+<text x="455" y="68" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#F4F1EA">exemplos</text>
+<text x="455" y="102" text-anchor="middle" font-family="IBM Plex Sans" font-size="22" fill="#C9C5BB">de um assunto</text>
+<line x1="592" y1="75" x2="636" y2="75" stroke="#E8894F" stroke-width="6"></line>
+<polygon points="634,61 658,75 634,89" fill="#E8894F"></polygon>
+<rect x="670" y="20" width="234" height="110" rx="18" fill="#E8894F"></rect>
+<text x="787" y="68" text-anchor="middle" font-family="Fraunces" font-weight="700" font-size="27" fill="#16181D">modelo</text>
+<text x="787" y="102" text-anchor="middle" font-family="Fraunces" font-weight="700" font-size="27" fill="#16181D">especializado</text>
+</svg></div>
+<div style="display: flex; flex-direction: column; gap: 6px; padding: 20px 30px; background: #2A2E37; border-left: 6px solid #E8894F; border-radius: 20px">
+<div style="font-family: 'Fraunces', serif; font-weight: 700; font-size: 54px; line-height: 1; color: #E8894F; white-space: nowrap">61% x 54%</div>
+<div style="font-size: 25px; line-height: 1.32; color: #DAD6CC">de acerto num teste de protocolos de laboratório: a Lila Sciences ajustou o Nemotron e passou o GPT-6 Astra, custando de 10 a 20 vezes menos para rodar</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; padding: 20px 30px; background: #2A2E37; border-left: 6px solid #E8894F; border-radius: 20px">
+<div style="font-family: 'Fraunces', serif; font-weight: 700; font-size: 54px; line-height: 1; color: #E8894F; white-space: nowrap">81%</div>
+<div style="font-size: 25px; line-height: 1.32; color: #DAD6CC">dos casos de teste corrigidos por um agente da KTH (Suécia) numa noite, num único DGX Spark</div>
+</div>
+<div style="flex-grow: 1"></div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; line-height: 1.4; color: #9A968D">Fonte: NVIDIA Newsroom, “NVIDIA Introduces Nemotron for Science to Accelerate Discoveries With Agents” (16/nov/2026), consultado em 23/nov/2026. Resultados informados pelas organizações citadas.</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #9A968D; border-top: 1px solid #3A3E47; padding-top: 28px">
+<img src="logo-claro" alt="Interas — Gestão em Tecnologia, 27 anos" style="height: 64px; width: auto; display: block; opacity: 0.92">
+<span style="font-family: 'IBM Plex Mono', monospace">5/6</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Para entender</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',sans-serif;color:#16181D;background:#F4F1EA}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px 88px 72px; display: flex; flex-direction: column; gap: 22px; background: #F4F1EA; color: #16181D; font-family: 'IBM Plex Sans', sans-serif">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; letter-spacing: 0.08em; color: #B4501A">PARA ENTENDER</div>
+<h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 700; line-height: 1.05; letter-spacing: -0.02em; font-size: 56px">O chip precisa de um tradutor. O da NVIDIA se chama CUDA.</h2>
+<div style="font-size: 27px; line-height: 1.4; color: #4A4740">A GPU faz contas muito rápido, mas o programa precisa "conversar" com ela. O <b style='color: #16181D'>CUDA</b> é a plataforma de software da NVIDIA que faz essa ponte: um jeito de programar a GPU e um acervo de <b style='color: #16181D'>bibliotecas</b>, peças de software prontas para cada tipo de tarefa.</div>
+<div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center"><svg viewBox="0 0 904 420" role="img" aria-label="Esquema ilustrativo em quatro camadas, de cima para baixo: o programa de IA que a empresa usa; as bibliotecas prontas CUDA-X; a plataforma CUDA, que traduz o pedido para o chip; e a GPU, que faz as contas." style="display: block; width: 100%; height: auto">
+<rect x="152" y="0" width="600" height="80" rx="18" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="3"></rect>
+<text x="452.0" y="34.0" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="27" fill="#16181D">programa de IA</text>
+<text x="452.0" y="68.0" text-anchor="middle" font-family="IBM Plex Sans" font-size="22" fill="#6B675F">o que a sua empresa usa</text>
+<line x1="452" y1="84" x2="452" y2="106" stroke="#B4501A" stroke-width="5"></line><polygon points="440,104 452,120 464,104" fill="#B4501A"></polygon>
+<rect x="152" y="120" width="600" height="80" rx="18" fill="#FFFFFF" stroke="#D9D4C8" stroke-width="3"></rect>
+<text x="452.0" y="154.0" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="27" fill="#16181D">bibliotecas prontas (CUDA-X)</text>
+<text x="452.0" y="188.0" text-anchor="middle" font-family="IBM Plex Sans" font-size="22" fill="#6B675F">peças de software para cada tarefa</text>
+<line x1="452" y1="204" x2="452" y2="226" stroke="#B4501A" stroke-width="5"></line><polygon points="440,224 452,240 464,224" fill="#B4501A"></polygon>
+<rect x="152" y="240" width="600" height="80" rx="18" fill="#16181D"></rect>
+<text x="452" y="274" text-anchor="middle" font-family="IBM Plex Mono" font-weight="500" font-size="24" fill="#E8894F">CUDA · A PONTE</text>
+<text x="452" y="306" text-anchor="middle" font-family="IBM Plex Sans" font-size="22" fill="#F4F1EA">traduz o pedido para o chip</text>
+<line x1="452" y1="324" x2="452" y2="346" stroke="#B4501A" stroke-width="5"></line><polygon points="440,344 452,360 464,344" fill="#B4501A"></polygon>
+<rect x="152" y="360" width="600" height="60" rx="18" fill="#E8894F"></rect>
+<text x="452" y="399" text-anchor="middle" font-family="Fraunces" font-weight="700" font-size="28" fill="#16181D">GPU: faz as contas</text>
+</svg></div>
+<div style="padding: 28px 36px; background: #16181D; color: #F4F1EA; border-radius: 24px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 22px; color: #E8894F">POR QUE IMPORTA PARA O SEU NEGÓCIO</div>
+<div style="font-size: 28px; line-height: 1.38">Boa parte da IA que você usa foi escrita para essa ponte. Por isso, num chip de IA, o software que já existe para ele pesa tanto quanto a peça.</div>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; line-height: 1.4; color: #6B675F">Fontes: NVIDIA Blog, “CUDA at 20” (16/nov/2026); NVIDIA Technical Blog, “CUDA Refresher: The GPU Computing Ecosystem” (atualizado em 22/jul/2025); consultados em 23/nov/2026. Esquema ilustrativo.</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #6B675F; border-top: 1px solid #D9D4C8; padding-top: 28px">
+<img src="logo-azul" alt="Interas — Gestão em Tecnologia, 27 anos" style="height: 64px; width: auto; display: block;">
+<span style="font-family: 'IBM Plex Mono', monospace">2/6</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+Chip de IA não trabalha sozinho: quem faz ele render é o software. ⚙️
+
+NVIDIA EM FOCO desta segunda: o que a NVIDIA anunciou de 16 a 18 de novembro e o que muda para um negócio comum. Conferimos tudo hoje nas fontes oficiais.
+
+▸ Para entender: a GPU faz contas muito rápido, mas o programa precisa "conversar" com ela. O CUDA é a plataforma de software da NVIDIA que faz essa ponte: um jeito de programar a GPU e um acervo de bibliotecas, peças de software prontas para cada tarefa. Boa parte da IA que você usa foi escrita para essa ponte.
+▸ CUDA, 20 anos: em 16/nov, a NVIDIA lembrou os 20 anos do CUDA, anunciado em novembro de 2006. Segundo a empresa, são mais de 11 milhões de desenvolvedores e mais de 1.000 bibliotecas CUDA-X.
+▸ IA na mesa (atualização do post de 12/out): em 18/nov, a NVIDIA anunciou que os computadores de mesa compactos com o chip RTX Spark da ASUS, Dell e MSI já estão à venda; os da Acer, GIGABYTE e HP chegam em breve. Até 128 GB de memória e modelos de IA de até 120 bilhões de parâmetros rodando na própria máquina, segundo a NVIDIA. O anúncio não traz preço nem data para o Brasil.
+▸ Modelo sob medida: em 16/nov, a NVIDIA lançou o Nemotron for Science, com o modelo aberto Nemotron 3.5 Super VL, uma base aberta de quase 50 mil perguntas de química e receitas de pós-treino (um ajuste extra do modelo com exemplos de um assunto). A Lila Sciences ajustou o modelo e chegou a 61% de acerto num teste de protocolos de laboratório, contra 54% do GPT-6 Astra, custando de 10 a 20 vezes menos para rodar. Números informados pelas organizações.
+
+O recado para quem empreende: ao comprar sistema ou máquina para IA, pergunte em qual plataforma de software ele roda; com documento que não pode sair da empresa, compare IA local e nuvem; e, em tarefa bem específica, teste um modelo aberto ajustado antes de pagar pelo maior.
+
+Na sua empresa, a IA rodaria melhor no computador do escritório ou na nuvem? Conta aqui 👇
+
+#InteligenciaArtificial #IA #NVIDIA #CUDA #RTXSpark #ModelosAbertos #PME #Interas

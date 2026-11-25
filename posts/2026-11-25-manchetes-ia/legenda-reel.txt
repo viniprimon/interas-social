@@ -1,0 +1,16 @@
+A IA mais forte não precisa fazer tudo. Agora ela trabalha em dupla. 🤝🤖
+
+Em 80 segundos, as manchetes de IA e os robôs humanoides da semana, explicados para quem toca um negócio. Descobrimos os assuntos nos podcasts e conferimos tudo hoje nas fontes oficiais.
+
+▸ Para entender: em vez de uma IA só fazer tudo, uma IA forte (e mais cara) planeja e confere, e uma IA rápida e barata executa as etapas simples. Se a executora travar, devolve para a planejadora. Assim você só paga caro na parte difícil (fonte: Google Antigravity, blog de 18/nov, que juntou o Gemini 4 Neon como planejador e o Gemini 4 Hydrogen como executor).
+▸ Modelos: em 19/nov, o Google lançou o Gemini 4 Neon, o "modelo do meio" da família Gemini 4: fica entre o Carbon, para os projetos mais difíceis, e o Hydrogen, para o dia a dia. No app Gemini, só nos planos Google AI Pro e Ultra; na API paga, US$ 3 por milhão de tokens enviados e US$ 15 por milhão recebidos. Segundo o Google, o custo por tarefa é 32% menor que o do Carbon. Fonte: Google.
+▸ Modelos: em 17/nov, a OpenAI lançou o GPT-6.2 Astra, para os projetos mais difíceis, e o GPT-6.2 Sol, para o trabalho do dia a dia. Estão no ChatGPT Work e no Codex para os planos Plus, Pro, Enterprise e Edu. Na API, o Sol custa um quarto do Astra (US$ 2 e US$ 10 por milhão de tokens, contra US$ 8 e US$ 40). Fonte: OpenAI.
+▸ China: em 23/nov, a Z.ai lançou o GLM-5.4, que reaproveita as mesmas partes do modelo em duas passadas para "pensar" mais sem ficar maior. Por ora, só no plano de programação da empresa (GLM Coding Plan); a API sai depois de uma avaliação de segurança. Fonte: Z.ai.
+▸ Humanoides, promessa: em 24/nov, a YYForce anunciou o Six Seven, humanoide treinado para atender hóspedes na recepção do Novotel Singapore on Stevens, indicando restaurantes, horários e passeios. Não há data de início, e o hotel não comentou. Fonte: YYForce.
+▸ Humanoides, demonstração: a XPENG avisou em 19/nov que mostra hoje, no seu AI Day na China, o humanoide IRON agindo sem controle remoto. Ele está em produção desde setembro, mas a empresa não divulgou cliente nem tarefa. Robô no palco não é robô no trabalho. Fonte: XPENG.
+
+O recado para quem empreende: use a IA forte para planejar e a barata para repetir; compare o custo por tarefa, não o nome do modelo; e, em robô, pergunte cliente e data, não o vídeo.
+
+Que tarefa da sua empresa iria para a IA barata? Conta aqui 👇
+
+#InteligenciaArtificial #IA #Humanoides #Gemini #ChatGPT #Robotica #PME #Interas

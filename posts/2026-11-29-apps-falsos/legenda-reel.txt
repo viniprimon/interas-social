@@ -1,0 +1,17 @@
+Esse aplicativo pode ser uma armadilha. 📱
+
+Em 1 minuto, o vídeo explica o que é uma permissão de aplicativo (a autorização que o app pede para usar a câmera, o microfone, a localização ou os seus contatos) e mostra como fugir de app falso e de permissão perigosa:
+
+1. Baixe só na loja oficial: Google Play, no Android, ou App Store, no iPhone. Nunca instale app que chega por mensagem ou link, e confira o nome do app e quem o desenvolveu.
+2. Banco não pede para instalar app. Se alguém ligar dizendo ser do banco e pedir isso, desligue na hora e ligue para o número que está no verso do cartão. Um app de acesso remoto dá ao golpista o controle do celular.
+3. Pedido estranho? Negue. App de lanterna pedindo seus contatos não faz sentido: toque em "Não permitir".
+4. Revise no Android: Configurações > Apps > toque no app > Permissões. Os nomes podem variar um pouco conforme o celular.
+5. Revise no iPhone: Ajustes > Privacidade e Segurança > escolha o tipo (Contatos, Fotos...) e veja quais apps têm acesso.
+
+No Android, deixe também o Play Protect ligado: na Play Store, toque no ícone do perfil > Play Protect > Configurações > "Verificar apps com o Play Protect".
+
+Salva este vídeo e manda no grupo da família.
+
+Marca aqui quem precisa ver isso 👇
+
+#DomingoSeguro #SegurancaDigital #AplicativoFalso #GolpeNoCelular #Privacidade #Interas

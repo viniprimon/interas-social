@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Para entender</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',sans-serif;color:#16181D;background:#F4F1EA}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px 88px 72px; display: flex; flex-direction: column; gap: 22px; background: #F4F1EA; color: #16181D; font-family: 'IBM Plex Sans', sans-serif">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 24px; letter-spacing: 0.08em; color: #B4501A">01 · PARA ENTENDER</div>
+<h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 700; font-size: 76px; line-height: 1.05; letter-spacing: -0.02em">O que é uma máquina virtual?</h2>
+<div style="font-size: 28px; line-height: 1.4; color: #4A4740">Uma <b style="color: #16181D">máquina virtual</b> é um computador feito de software, que roda dentro de um computador de verdade. O <b style="color: #16181D">hipervisor</b> divide um servidor físico em vários.</div>
+<div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center">
+<svg viewBox="-3 0 910 470" role="img" aria-label="Esquema ilustrativo: um servidor físico roda o hipervisor ESXi, que divide a máquina em três máquinas virtuais; o vCenter é o painel que administra tudo" style="display: block; width: 88%; height: auto; margin: 0 auto">
+<rect x="0" y="0" width="904" height="84" rx="20" fill="#E8894F"></rect><text x="452" y="38" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="29" fill="#16181D">Painel central (vCenter)</text><text x="452" y="70" text-anchor="middle" font-family="IBM Plex Sans" font-size="22" fill="#16181D">liga, desliga, cria e copia as máquinas virtuais</text>
+<path d="M452 94V124" stroke="#16181D" stroke-width="6" stroke-linecap="round"></path><path d="M439 112L452 126L465 112" stroke="#16181D" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+<rect x="0" y="136" width="904" height="334" rx="24" fill="#FFFFFF" stroke="#16181D" stroke-width="4"></rect>
+<text x="40" y="180" font-family="IBM Plex Mono" font-size="22" fill="#6B675F">UM SERVIDOR FÍSICO</text>
+<rect x="36" y="200" width="260" height="130" rx="18" fill="#16181D"></rect><text x="166" y="256" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#F4F1EA">Máquina virtual</text><text x="166" y="292" text-anchor="middle" font-family="IBM Plex Sans" font-size="23" fill="#C9C5BB">sistema de gestão</text>
+<rect x="322" y="200" width="260" height="130" rx="18" fill="#16181D"></rect><text x="452" y="256" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#F4F1EA">Máquina virtual</text><text x="452" y="292" text-anchor="middle" font-family="IBM Plex Sans" font-size="23" fill="#C9C5BB">arquivos</text>
+<rect x="608" y="200" width="260" height="130" rx="18" fill="#16181D"></rect><text x="738" y="256" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="26" fill="#F4F1EA">Máquina virtual</text><text x="738" y="292" text-anchor="middle" font-family="IBM Plex Sans" font-size="23" fill="#C9C5BB">e-mail</text>
+<rect x="36" y="350" width="832" height="92" rx="18" fill="#6FA3E8"></rect><text x="452" y="390" text-anchor="middle" font-family="IBM Plex Sans" font-weight="600" font-size="27" fill="#16181D">Hipervisor (no VMware, o ESXi)</text><text x="452" y="424" text-anchor="middle" font-family="IBM Plex Sans" font-size="22" fill="#16181D">reparte o processador, a memória e o disco entre elas</text>
+</svg>
+</div>
+<div style="padding: 22px 30px; background: #16181D; border-radius: 24px; display: flex; flex-direction: column; gap: 6px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 21px; color: #E8894F">POR QUE IMPORTA</div>
+<div style="font-size: 26px; line-height: 1.35; color: #F4F1EA">Vários sistemas da empresa podem morar no mesmo servidor, sob um só painel. Por isso o NIST, órgão de padrões dos EUA, pede proteger bem o hipervisor, “o programa central que roda o ambiente virtual”.</div>
+</div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; line-height: 1.4; color: #6B675F">Fontes: Broadcom TechDocs, “Introduction to vSphere Installation and Setup” (vSphere 8.0); NIST, ITL Bulletin (mar/2018) e SP 800-125 (2/fev/2011); consultados em 27/nov/2026. Esquema ilustrativo.</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; color: #6B675F; border-top: 1px solid #D9D4C8; padding-top: 28px">
+<img src="logo-azul" alt="Interas — Gestão em Tecnologia, 27 anos" style="height: 64px; width: auto; display: block;">
+<span style="font-family: 'IBM Plex Mono', monospace">2/9</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

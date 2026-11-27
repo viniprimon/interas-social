@@ -1,0 +1,16 @@
+Sua empresa usa VMware? Duas falhas críticas apareceram em 5 dias. E o Excel ganhou IA para conferir o extrato do banco. 🖥️📊
+
+SEGURANÇA E IA NA PRÁTICA desta sexta, com tudo conferido hoje nas fontes oficiais.
+
+▸ Para entender: máquina virtual é um computador feito de software, que roda dentro de um computador de verdade. O hipervisor (no VMware, o ESXi) divide um servidor físico em vários, e o vCenter é o painel que administra todos. Por isso o NIST, órgão de padrões dos EUA, pede proteger bem o hipervisor, "o programa central que roda o ambiente virtual".
+▸ Alerta da semana: a Broadcom publicou dois avisos sobre o vCenter, em 19/nov (CVE-2026-123890) e em 24/nov (CVE-2026-123903). As duas falhas têm nota 9,8 de 10 e deixam quem alcança o painel pela rede burlar a autenticação. A de 19/nov entrou no dia 20 na lista de falhas já exploradas da CISA, a agência de cibersegurança dos EUA. Não há paliativo: a saída é atualizar.
+▸ O que fazer: vCenter 9.1 para 9.1.2, 9.0 para 9.0.2.0300, 8.0 para 8.0 U3m; no 7.0, falar com o suporte da Broadcom. O aviso de 24/nov também corrige falhas graves no ESXi (no 8.0, ESXi 8.0 U3m). Controle da semana: painel de administração fechado para a internet e um responsável pela atualização, com a data anotada.
+▸ IA na prática: em 24/nov, a Microsoft anunciou habilidades de contabilidade no Copilot do Excel. A de conciliação compara saldos e lançamentos do razão, do extrato do banco e dos fornecedores e lista o que não bate. Você chama digitando @ e o nome da habilidade.
+▸ Quem faz o quê: a IA compara, lista as diferenças e prepara o rascunho do ajuste. Conferir, decidir e assinar o fechamento continua com gente; a própria Microsoft diz que o Copilot não substitui o contador nem a aprovação da empresa.
+▸ Como começar: por enquanto está no Frontier, o acesso antecipado da Microsoft (prévia, pode mudar). Na empresa, precisa de licença com Copilot e o administrador liga o Frontier. Teste numa cópia de um mês já fechado e ligue o registro de auditoria.
+
+O recado para quem empreende: pergunte hoje se a empresa usa VMware e se a versão já está corrigida, mantenha painéis de administração longe da internet e use a IA para apontar diferenças, com o ok final do financeiro.
+
+Quanto tempo a sua empresa gasta para fechar o mês? Conta aqui 👇
+
+#InteligenciaArtificial #IA #Ciberseguranca #VMware #Excel #Financeiro #PME #Interas
